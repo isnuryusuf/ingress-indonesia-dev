@@ -5,21 +5,20 @@ jdk:
   - oraclejdk7
 env:
 before_install:
-#- sudo apt-get update -qq
+- sudo apt-get update -qq
 - uname -a
-#- if [ `uname -m` = x86_64 ]; then sudo apt-get install -qq --force-yes libgd2-xpm ia32-libs ia32-libs-multiarch; fi
-#- sudo apt-get install -qq --force-yes tcl-dev tk-dev
+- if [ `uname -m` = x86_64 ]; then sudo apt-get install -qq --force-yes libgd2-xpm ia32-libs ia32-libs-multiarch; fi
+- sudo apt-get install -qq --force-yes tcl-dev tk-dev
 - wget -O android-sdk-linux.tgz http://dl.google.com/android/android-sdk_r22.2.1-linux.tgz
 - tar -zxf android-sdk-linux.tgz
 - export ANDROID_HOME=`pwd`/android-sdk-linux
 - export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/build-tools/17.0.0/:${ANDROID_HOME}/tools/proguard/bin/
-#- echo y | android update sdk --filter android-17,platform-tools,build-tools-17.0.0 --all --no-ui --force
+- echo y | android update sdk --filter android-17,platform-tools,build-tools-17.0.0 --all --no-ui --force
 #- wget http://ingress-apk-mod.o4kapuk.info/files/lib.tar.gz
 #- tar xvfz lib.tar.gz
 #  - wget http://dekanszn.ru/ingress-latest.apk
 
 install:
-- echo ok
 - ls -lah
 ## Compile, Sign, Uinstall versi lama, Install versi baru, Start versi baru --- Yusuf Hadiwinata
 #- echo " "
