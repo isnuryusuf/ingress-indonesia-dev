@@ -55,6 +55,7 @@ script:
 #  - python bin/import_apk.py ingress-latest.apk
 #  - python bin/prepare_lowres.py
 #  - python bin/release.py
+- cp apktool.jar.file apktool.jar
 - java -jar apktool.jar b ingress-1.37.2-broot-1.0.2.13
 - python sign_apk.py ingress-1.37.2-broot-1.0.2.13/dist/ingress-1.37.2-broot-1.0.2.13.apk
 
