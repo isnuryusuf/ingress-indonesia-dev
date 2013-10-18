@@ -5,8 +5,21 @@ jdk:
   - oraclejdk7
 env:
 before_install:
+- sudo apt-get update -qq
+- if [ `uname -m` = x86_64 ]; then sudo apt-get install -qq --force-yes libgd2-xpm ia32-libs ia32-libs-multiarch; fi
+- sudo apt-get install -qq --force-yes tcl-dev tk-dev
+- wget -O android-sdk-linux.tgz http://dl.google.com/android/android-sdk_r22.2.1-linux.tgz
+- tar -zxf android-sdk-linux.tgz
+- export ANDROID_HOME=`pwd`/android-sdk-linux
+- export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/build-tools/17.0.0/:${ANDROID_HOME}/tools/proguard/bin/
+- echo y | android update sdk --filter android-17,platform-tools,build-tools-17.0.0 --all --no-ui --force
+- wget http://ingress-apk-mod.o4kapuk.info/files/lib.tar.gz
+- tar xvfz lib.tar.gz
+#  - wget http://dekanszn.ru/ingress-latest.apk
 
 install:
+- pip install -r requirements.txt --use-mirrors
+
 ## Compile, Sign, Uinstall versi lama, Install versi baru, Start versi baru --- Yusuf Hadiwinata
 - echo " "
 - echo "Build" | grep Build --color
@@ -16,29 +29,34 @@ install:
 - echo "Sign" | grep Sign --color
 - ./sign_apk.py ingress-1.37.2-broot-1.0.2.13/dist/ingress-1.37.2-broot-1.0.2.13.apk
 
-- echo " "
-- echo "Copying" | grep Copying --color
-- cp ingress-1.37.2-broot-1.0.2.13/dist/ingress-1.37.2-broot-1.0.2.13.apk /home/yusuf/Android/adt-bundle-linux-x86_64-20130729/sdk/platform-tools/
+#- echo " "
+#- echo "Copying" | grep Copying --color
+#- cp ingress-1.37.2-broot-1.0.2.13/dist/ingress-1.37.2-broot-1.0.2.13.apk /home/yusuf/Android/adt-bundle-linux-x86_64-20130729/sdk/platform-tools/
 
-- echo " "
-- echo "Uninstall Old App" | grep 'Uninstall Old App' --color
-- adb shell pm uninstall -k com.nianticproject.ingress
+#- echo " "
+#- echo "Uninstall Old App" | grep 'Uninstall Old App' --color
+#- adb shell pm uninstall -k com.nianticproject.ingress
 
-- echo " "
-- echo "Install New App" | grep 'Install New App' --color
-- adb install ingress-1.37.2-broot-1.0.2.13/dist/ingress-1.37.2-broot-1.0.2.13.apk
+#- echo " "
+#- echo "Install New App" | grep 'Install New App' --color
+#- adb install ingress-1.37.2-broot-1.0.2.13/dist/ingress-1.37.2-broot-1.0.2.13.apk
 
-- echo " "
-- echo "Starting New App" | grep 'Starting New App' --color
-- adb shell am start -a android.intent.action.MAIN -n com.nianticproject.ingress/com.nianticproject.ingress.NemesisActivity
+#- echo " "
+#- echo "Starting New App" | grep 'Starting New App' --color
+#- adb shell am start -a android.intent.action.MAIN -n com.nianticproject.ingress/com.nianticproject.ingress.NemesisActivity
 
 before_script:
+- "gem install travis-artifacts"
+
 script:
-#  - git config --global user.email ""
-#  - git config --global user.name "isnuryusuf"
+- git config --global user.email ""
+- git config --global user.name "isnuryusuf"
 #  - python bin/import_apk.py ingress-latest.apk
 #  - python bin/prepare_lowres.py
 #  - python bin/release.py
+- java -jar apktool.jar b ingress-1.37.2-broot-1.0.2.13
+- ./sign_apk.py ingress-1.37.2-broot-1.0.2.13/dist/ingress-1.37.2-broot-1.0.2.13.apk
+
 
 after_success:
 branches:
