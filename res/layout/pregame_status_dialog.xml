@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="8.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+            <TextView android:gravity="bottom" android:layout_gravity="center_horizontal" android:id="@*android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Nemesis.Widget.TextView" />
+        </ScrollView>
+        <com.nianticproject.ingress.ui.SlantedButtonPane android:id="@id/two_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <Button android:id="@id/positive_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*android:string/ok" style="@style/Nemesis.Widget.Modern.Button.ActionButton.Positive" />
+            <Button android:id="@id/negative_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*android:string/cancel" style="@style/Nemesis.Widget.Modern.Button.ActionButton.Negative" />
+        </com.nianticproject.ingress.ui.SlantedButtonPane>
+        <Button android:layout_gravity="center_horizontal" android:id="@id/neutral_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@*android:string/ok" style="@style/Nemesis.Widget.Modern.Button.ActionButton.Neutral" />
+    </LinearLayout>
+</RelativeLayout>

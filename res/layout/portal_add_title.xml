@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="left|center" android:id="@id/title" android:background="@drawable/portal_info_dialog_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:text="@string/portal_form_title" android:singleLine="true" />
+    <TextView android:ellipsize="end" android:gravity="top|left|center" android:layout_gravity="top" android:id="@id/portal_info_attribution" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip" android:singleLine="true" style="@style/Nemesis.Widget.TextView.PortalInfo.Attribution" />
+</merge>

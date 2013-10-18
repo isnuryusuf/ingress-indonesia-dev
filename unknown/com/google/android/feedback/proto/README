@@ -1,0 +1,10 @@
+This package is for Google Feedback API proto code.
+
+Here is the guide on integrating google feedback in android pre-ics:
+http://go/maf
+
+The guide says to copy this code from:
+java/com/google/userfeedback/android/api
+
+This proto code was copied and no changes were made, except import changes.
+Imports were changed to not use internal google libs.

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Nemesis.Theme" parent="@*android:style/Theme.Holo.NoActionBar">
+        <item name="android:scrollbarThumbHorizontal">@drawable/scrollbar_thumb</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_thumb</item>
+        <item name="android:scrollbarTrackHorizontal">@drawable/scrollbar_track</item>
+        <item name="android:scrollbarTrackVertical">@drawable/scrollbar_track</item>
+    </style>
+    <style name="Nemesis.Theme.NonFiction" parent="@*android:style/Theme.Holo" />
+    <style name="Nemesis.Theme.Dialog" parent="@*android:style/Theme.Holo.Dialog" />
+    <style name="Nemesis.Widget.ProgressBar" parent="@*android:style/Widget.Holo.ProgressBar" />
+    <style name="Nemesis.Widget.ProgressBar.Large" parent="@*android:style/Widget.Holo.ProgressBar.Large" />
+</resources>

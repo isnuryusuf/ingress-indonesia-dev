@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nianticproject.ingress.ui.TitleBar android:id="@id/titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/modern_yellow" android:ellipsize="end" android:gravity="right|center" android:id="@id/title" android:background="@drawable/ops_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentRight="true" />
+    <ImageButton android:id="@id/close" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ops_close_button" android:layout_alignParentLeft="true" />
+</com.nianticproject.ingress.ui.TitleBar>

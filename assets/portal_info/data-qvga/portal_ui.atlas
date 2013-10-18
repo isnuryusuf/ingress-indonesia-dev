@@ -1,0 +1,193 @@
+portal_ui.png
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+energy-alien
+  rotate: false
+  xy: 1, 1
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+energy-resistance
+  rotate: false
+  xy: 1, 1
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+portal
+  rotate: false
+  xy: 1, 1
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+resonator-N
+  rotate: false
+  xy: 30, 42
+  size: 22, 19
+  orig: 22, 19
+  offset: 0, 0
+  index: -1
+energy-N
+  rotate: false
+  xy: 43, 0
+  size: 4, 21
+  orig: 4, 21
+  offset: 0, 0
+  index: -1
+level-N
+  rotate: false
+  xy: 40, 26
+  size: 10, 6
+  orig: 10, 6
+  offset: 0, 0
+  index: -1
+resonator-NE
+  rotate: false
+  xy: 36, 50
+  size: 33, 16
+  orig: 33, 16
+  offset: 0, 0
+  index: -1
+energy-NE
+  rotate: false
+  xy: 62, 0
+  size: 4, 21
+  orig: 4, 21
+  offset: 0, 0
+  index: -1
+level-NE
+  rotate: false
+  xy: 58, 26
+  size: 10, 6
+  orig: 10, 6
+  offset: 0, 0
+  index: -1
+resonator-E
+  rotate: false
+  xy: 32, 62
+  size: 40, 18
+  orig: 40, 18
+  offset: 0, 0
+  index: -1
+energy-E
+  rotate: false
+  xy: 62, 108
+  size: 4, 21
+  orig: 4, 21
+  offset: 0, 0
+  index: -1
+level-E
+  rotate: false
+  xy: 58, 97
+  size: 10, 6
+  orig: 10, 6
+  offset: 0, 0
+  index: -1
+resonator-SE
+  rotate: false
+  xy: 29, 64
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1
+energy-SE
+  rotate: false
+  xy: 43, 108
+  size: 4, 21
+  orig: 4, 21
+  offset: 0, 0
+  index: -1
+level-SE
+  rotate: false
+  xy: 40, 97
+  size: 10, 6
+  orig: 10, 6
+  offset: 0, 0
+  index: -1
+resonator-S
+  rotate: false
+  xy: 12, 63
+  size: 26, 30
+  orig: 26, 30
+  offset: 0, 0
+  index: -1
+energy-S
+  rotate: false
+  xy: 25, 108
+  size: 4, 21
+  orig: 4, 21
+  offset: 0, 0
+  index: -1
+level-S
+  rotate: false
+  xy: 22, 97
+  size: 10, 6
+  orig: 10, 6
+  offset: 0, 0
+  index: -1
+resonator-SW
+  rotate: false
+  xy: 0, 60
+  size: 34, 18
+  orig: 34, 18
+  offset: 0, 0
+  index: -1
+energy-SW
+  rotate: false
+  xy: 5, 108
+  size: 4, 21
+  orig: 4, 21
+  offset: 0, 0
+  index: -1
+level-SW
+  rotate: false
+  xy: 2, 97
+  size: 10, 6
+  orig: 10, 6
+  offset: 0, 0
+  index: -1
+resonator-W
+  rotate: false
+  xy: 2, 48
+  size: 31, 17
+  orig: 31, 17
+  offset: 0, 0
+  index: -1
+energy-W
+  rotate: false
+  xy: 5, 0
+  size: 4, 21
+  orig: 4, 21
+  offset: 0, 0
+  index: -1
+level-W
+  rotate: false
+  xy: 2, 26
+  size: 10, 6
+  orig: 10, 6
+  offset: 0, 0
+  index: -1
+resonator-NW
+  rotate: false
+  xy: 18, 42
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+energy-NW
+  rotate: false
+  xy: 25, 0
+  size: 4, 21
+  orig: 4, 21
+  offset: 0, 0
+  index: -1
+level-NW
+  rotate: false
+  xy: 22, 26
+  size: 10, 6
+  orig: 10, 6
+  offset: 0, 0
+  index: -1

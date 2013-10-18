@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_install_title">Google Play አገልግሎቶችን አግኝ</string>
+    <string name="common_google_play_services_install_text_phone">ይህ መተግበሪያ ያለ Google Play አገልግሎቶች አይሰራም፣ እነሱ ደግሞ ስልክዎ ላይ የሉም።</string>
+    <string name="common_google_play_services_install_text_tablet">ይህ መተግበሪያ ያለ Google Play አገልግሎቶች አይሰራም፣ እነሱ ደግሞ ጡባዊዎ ላይ የሉም።</string>
+    <string name="common_google_play_services_install_button">Google Play አገልግሎቶችን አግኝ</string>
+    <string name="common_google_play_services_enable_title">Google Play አገልግሎቶችን አንቃ</string>
+    <string name="common_google_play_services_enable_text">Google Play አገልግሎቶችን እስካላነቁ ድረስ ይህ መተግበሪያ አይሰራም።</string>
+    <string name="common_google_play_services_enable_button">Google Play አገልግሎቶችን አንቃ</string>
+    <string name="common_google_play_services_update_title">Google Play አገልግሎቶችን ያዘምኑ</string>
+    <string name="common_google_play_services_update_text">Google Play አገልግሎቶችን እስኪያዘምኑ ድረስ ይህ መተግበሪያ አይሰራም።</string>
+    <string name="common_google_play_services_unknown_issue">በGoogle Play አገልግሎቶች ላይ ያልታወቀ ችግር።</string>
+    <string name="common_google_play_services_unsupported_title">Google Play አገልግሎቶች</string>
+    <string name="common_google_play_services_unsupported_text">የGoogle Play አገልግሎቶች፣ አንዳንድ መተግበሪያዎችዎ በእሱ ላይ ጥገኛ የሆኑት፣ በመሣሪያዎ አይደገፍም። እባክዎ ለእርዳታ አምራቹን ያግኙ።</string>
+    <string name="common_google_play_services_update_button">ያዘምኑ</string>
+    <string name="common_signin_button_text">ግባ</string>
+    <string name="common_signin_button_text_long">በGoogle ይግቡ</string>
+</resources>

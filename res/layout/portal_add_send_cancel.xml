@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/submit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/submit" android:layout_weight="1.0" style="@style/Nemesis.Widget.Modern.Button.ActionButton.Neutral" />
+    <Button android:id="@id/cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/cancel" android:layout_weight="1.0" style="@style/Nemesis.Widget.Modern.Button.ActionButton.Neutral" />
+</LinearLayout>

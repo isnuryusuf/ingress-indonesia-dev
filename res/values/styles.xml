@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Nemesis" />
+    <style name="Nemesis.Theme" parent="@*android:style/Theme.Black.NoTitleBar">
+        <item name="android:scrollbarThumbHorizontal">@drawable/scrollbar_thumb</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_thumb</item>
+        <item name="android:scrollbarTrackHorizontal">@drawable/scrollbar_track</item>
+        <item name="android:scrollbarTrackVertical">@drawable/scrollbar_track</item>
+    </style>
+    <style name="Nemesis.Theme.Backgroundless" parent="@style/Nemesis.Theme">
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="Nemesis.Theme.NonFiction" parent="@*android:style/Theme.Black" />
+    <style name="Nemesis.Theme.Dialog" parent="@*android:style/Theme.Dialog" />
+    <style name="Nemesis.Widget" parent="@style/Nemesis" />
+    <style name="Nemesis.Widget.TextView" parent="@style/Nemesis.Widget">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Nemesis.Widget.TextView.RangeFilter" parent="@style/Nemesis.Widget.TextView">
+        <item name="android:textColor">@color/foreground</item>
+    </style>
+    <style name="Nemesis.Widget.TextView.PortalInfo" parent="@style/Nemesis.Widget.TextView">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/foreground</item>
+        <item name="android:padding">9.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Nemesis.Widget.TextView.PortalInfo.Attribution" parent="@style/Nemesis.Widget.TextView.PortalInfo">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/modern_dark_yellow</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Nemesis.Widget.TextView.CommListItem" parent="@style/Nemesis.Widget.TextView">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:gravity">top|left|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Nemesis.Widget.TextView.NoConnection" parent="@style/Nemesis.Widget.TextView">
+        <item name="android:textColor">#ffff5555</item>
+        <item name="android:background">@drawable/butter_bar_red_background</item>
+    </style>
+    <style name="Nemesis.Widget.TextView.InviteRedemption" parent="@style/Nemesis.Widget.TextView">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+    </style>
+    <style name="Nemesis.Widget.Comms" parent="@style/Nemesis.Widget" />
+    <style name="Nemesis.Widget.Comms.CommHandle" parent="@style/Nemesis.Widget.Comms">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@drawable/comm_handle_textcolor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">bottom|right|center</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/button_label_comm_panel</item>
+    </style>
+    <style name="Nemesis.Widget.Comms.TabHost" parent="@style/Nemesis.Widget.Comms">
+        <item name="android:background">@color/comm_tabhost_background</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Nemesis.Widget.Comms.Tab" parent="@style/Nemesis.Widget.Comms">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@drawable/comm_tab_textcolor</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Nemesis.Widget.Comms.MessageContainer" parent="@style/Nemesis.Widget.Comms">
+        <item name="android:background">@color/background</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Nemesis.Widget.Comms.PreviewContainer" parent="@style/Nemesis.Widget.Comms">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">@color/comm_preview_background</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">29.0dip</item>
+    </style>
+    <style name="Nemesis.Widget.Comms.ListView" parent="@style/Nemesis.Widget.Comms">
+        <item name="android:fadingEdge">horizontal|vertical</item>
+        <item name="android:fadingEdgeLength">6.0dip</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:stackFromBottom">false</item>
+        <item name="android:transcriptMode">normal</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@null</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:requiresFadingEdge">horizontal|vertical</item>
+    </style>
+    <style name="Nemesis.Widget.Comms.MessagePane" parent="@style/Nemesis.Widget.Comms">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Nemesis.Widget.Comms.MessageBox" parent="@style/Nemesis.Widget.Comms">
+        <item name="android:textColor">@drawable/comm_edittext_text_color</item>
+        <item name="android:textColorHint">@color/comm_text_input_hint</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">@drawable/comm_edittext_bg</item>
+        <item name="android:padding">3.0dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">@dimen/comm_messagebox_height</item>
+        <item name="android:hint">@string/comms_send_hint</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Nemesis.Widget.Comms.MessageSendButton" parent="@style/Nemesis.Widget.Comms">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@drawable/send_message_button_bg</item>
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/comm_messagebox_height</item>
+        <item name="android:text">@string/action_transmit</item>
+    </style>
+    <style name="Nemesis.Widget.Comms.MessageBox.SignOn" parent="@style/Nemesis.Widget.Comms.MessageBox">
+        <item name="android:background">@drawable/sign_on_foreground_border_default</item>
+        <item name="android:hint">@null</item>
+    </style>
+    <style name="Nemesis.Widget.Comms.MessageSendButton.SignOn" parent="@style/Nemesis.Widget.Comms.MessageSendButton">
+        <item name="android:textColor">@drawable/sign_on_send_button_textcolor</item>
+        <item name="android:background">@drawable/sign_on_send_message_button_bg</item>
+        <item name="android:text">@string/action_transmit</item>
+    </style>
+    <style name="Nemesis.Widget.Comms.MessageSendButton.InviteRedemption" parent="@style/Nemesis.Widget.Comms.MessageSendButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/invite_redemption_activate</item>
+        <item name="android:background">@drawable/invite_redeem_button_bg</item>
+        <item name="android:text">@string/invite_redemption_activate_button_text</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="Nemesis.Widget.Comms.MessageSendButton.InviteRedemption.RequestInvite" parent="@style/Nemesis.Widget.Comms.MessageSendButton.InviteRedemption">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/invite_redemption_request_code</item>
+        <item name="android:background">@drawable/invite_redeem_request_code_button_bg</item>
+        <item name="android:text">@string/action_request</item>
+    </style>
+    <style name="Nemesis.Widget.Comms.MessageBox.InviteRedemption" parent="@style/Nemesis.Widget.Comms.MessageBox">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:background">@drawable/invite_redeem_foreground_border</item>
+        <item name="android:hint">@null</item>
+    </style>
+    <style name="Nemesis.Widget.Modern" parent="@style/Nemesis.Widget" />
+    <style name="Nemesis.Widget.Modern.Button" parent="@style/Nemesis.Widget.Modern" />
+    <style name="Nemesis.Widget.Modern.Button.ActionButton" parent="@style/Nemesis.Widget.Modern.Button">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/foreground</item>
+    </style>
+    <style name="Nemesis.Widget.Modern.Button.ActionButton.Neutral" parent="@style/Nemesis.Widget.Modern.Button.ActionButton">
+        <item name="android:background">@drawable/default_btn_background</item>
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+    </style>
+    <style name="Nemesis.Widget.Modern.Button.ActionButton.Positive" parent="@style/Nemesis.Widget.Modern.Button.ActionButton">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textColor">@color/modern_yellow</item>
+        <item name="android:background">@drawable/positive_btn_background</item>
+        <item name="android:paddingLeft">22.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">22.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+    </style>
+    <style name="Nemesis.Widget.Modern.Button.ActionButton.Negative" parent="@style/Nemesis.Widget.Modern.Button.ActionButton">
+        <item name="android:background">@drawable/negative_btn_background</item>
+    </style>
+    <style name="Nemesis.Widget.ProgressBar" parent="@*android:style/Widget.ProgressBar" />
+    <style name="Nemesis.Widget.ProgressBar.Large" parent="@*android:style/Widget.ProgressBar.Large" />
+</resources>

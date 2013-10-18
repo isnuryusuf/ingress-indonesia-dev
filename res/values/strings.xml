@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone">"This app won't run without Google Play services, which are missing from your phone."</string>
+    <string name="common_google_play_services_install_text_tablet">"This app won't run without Google Play services, which are missing from your tablet."</string>
+    <string name="common_google_play_services_install_button">Get Google Play services</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text">"This app won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_update_text">"This app won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="auth_client_availability_notification_title">Install/Update/Enable Google Play services</string>
+    <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
+    <string name="auth_client_requested_by_msg">Requested by %1$s</string>
+    <string name="location_client_ulr_inactive_age_under_13">AgeUnder13</string>
+    <string name="location_client_ulr_inactive_age_unknown">AgeUnknown</string>
+    <string name="location_client_ulr_inactive_unknown_restriction">UnknownRestriction</string>
+    <string name="gf_receiver_transport_scheme">https</string>
+    <string name="gf_receiver_host">www.google.com</string>
+    <string name="gf_receiver_port" />
+    <string name="gf_receiver_path">/tools/feedback/android/__submit</string>
+    <string name="app_name">Ingress</string>
+    <string name="you_are_alien">You are Enlightened.</string>
+    <string name="you_are_resistance">You are part of the Resistance.</string>
+    <string name="button_label_comm_panel">COMM</string>
+    <string name="title_mock_location_enabled">Warning</string>
+    <string name="message_mock_location_enabled">Mock locations disallowed. Please ensure it is disabled.</string>
+    <string name="message_mock_location_enabled_fallthrough">Mock locations disallowed. Please ensure that Settings > Developer Options > Allow Mock Locations is NOT enabled.</string>
+    <string name="label_mock_locations_positive_button">Disable…</string>
+    <string name="label_mock_locations_negative_button">Not now</string>
+    <string name="comms_filter_all">All</string>
+    <string name="comms_filter_alerts">Alerts</string>
+    <string name="comms_filter_faction">Faction</string>
+    <string name="comms_send_hint">Start broadcasting here</string>
+    <string name="progress_loading">Loading…</string>
+    <string name="portal_info_no_description">Portal information not available.</string>
+    <string name="sign_on_nickname_initial_prompt_announce">"Create an agent name. This is the name other agents will know you by.
+
+Type new agent name."</string>
+    <string name="progress_validating_nickname">Validating codename</string>
+    <string name="progress_creating_nickname">Creating codename</string>
+    <string name="sign_on_nickname_prompt_retry_announce">Try a different codename.</string>
+    <string name="sign_on_nickname_error_too_short">Codename too short.</string>
+    <string name="sign_on_nickname_error_too_long">Codename too long.</string>
+    <string name="sign_on_nickname_error_invalid_chars">Codename contains invalid characters.</string>
+    <string name="sign_on_nickname_error_already_set">Codename already set.</string>
+    <string name="sign_on_nickname_error_bad_words">Codename is not allowed.</string>
+    <string name="sign_on_nickname_error_not_unique">Codename already taken.</string>
+    <string name="sign_on_tos_location">Your location will be collected by Google and shared with other users of the product. Read the full &lt;u>&lt;a href=\"http://www.ingress.com/terms/\">Terms of Service&lt;/a>&lt;/u> before accepting these terms and conditions.</string>
+    <string name="sign_on_tos_accept">I accept the Terms of Service for this app</string>
+    <string name="sign_on_tos_promotions">Send me Ingress-related events, promotion information, offers, and news updates to my email address.</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_retry">Retry</string>
+    <string name="sign_on_nickname_error_while_persisting">Error while creating codename.</string>
+    <string name="sign_on_nickname_error_while_validating">Error while validating codename.</string>
+    <string name="sign_on_error_establishing_secure_connection">Secure connection could not be established! Please try again.</string>
+    <string name="sign_on_error_unauthenticated_user">The account, %s, cannot be used. Please choose a different one.</string>
+    <string name="sign_on_force_update">Your scanner is out of date. You must update to continue.</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_quit">Quit</string>
+    <string name="label_share_to_super_ops">NIA Super Ops</string>
+    <string name="message_share_to_super_ops_no_location">This photo had no geolocation. Make sure your camera is set up for getting the location.</string>
+    <string name="no_location_enabled_title">Warning</string>
+    <string name="no_location_enabled_message">No location services are enabled. Please ensure one or more is enabled to continue.</string>
+    <string name="no_location_enabled_fallthrough_ics_message">Location services are not enabled. Please ensure that Settings > Location Services has location reporting enabled.</string>
+    <string name="no_location_enabled_fallthrough_gb_message">Location services are not enabled. Please ensure that Settings > Location &amp; Security has location reporting enabled.</string>
+    <string name="no_location_enabled_positive_button">Enable…</string>
+    <string name="no_location_enabled_negative_button">Not now.</string>
+    <string name="action_add_account">Add account</string>
+    <string name="message_no_accounts">There are no accounts on the device.</string>
+    <string name="message_select_identity">Select your identity</string>
+    <string name="action_sign_out">Sign out…</string>
+    <string name="message_confirm">Are you sure?</string>
+    <string name="title_error">Error</string>
+    <string name="message_bazaar_not_installed">Bazaar is not installed. The application cannot update.</string>
+    <string name="subtitle_attribution_page">Sources</string>
+    <string name="message_share_to_super_ops_enter_portal_title">Enter title for portal</string>
+    <string name="hint_portal_title">Enter portal title</string>
+    <string name="message_must_provide_portal_title">Must provide portal title</string>
+    <string name="message_no_connectivity">No Data Connection.</string>
+    <string name="sign_on_boot_top">Booting Niantic software v%s…</string>
+    <string name="sign_on_boot_center" formatted="false">"
+ *
+ *
+ *
+ *
+ JMP 0x1F
+ POPL %ESI
+ MOVL %ESI,0x8(%ESI)
+ XORL %EAX,%EAX
+ MOVB %EAX,0x7(%ESI)
+ MOVL %EAX,0xC(%ESI)
+ MOVB $0xB,%AL
+ MOVL %ESI,%EBX
+ LEAL 0x8(%ESI),%ECX
+ *
+ *
+ *
+ *"</string>
+    <string name="version">v%s</string>
+    <string name="sign_on_nickname_persisted_creating_keys">Creating encryption keys…</string>
+    <string name="sign_on_nickname_persisted_id_confirmed">"ID confirmed. &lt;font color=\"#ffffff\">%s&lt;/font>
+Access granted."</string>
+    <string name="sign_on_nickname_persisted_program_initiated">Program initiated.…</string>
+    <string name="sign_on_nickname_software_online">"Niantic software online.
+
+Incoming message detected.
+Opening secure channel…"</string>
+    <string name="sign_on_nickname_valid">Codename valid. Please confirm.</string>
+    <string name="title_dialog_confirm_switch_team_to">Switching to %s</string>
+    <string name="action_transmit">Transmit</string>
+    <string name="enter_passcode_hint">Enter passcode</string>
+    <string name="submit_passcode">Submit</string>
+    <string name="passcode_validating">Validating passcode…</string>
+    <string name="passcode_done">Done</string>
+    <string name="passcode_retry">Retry</string>
+    <string name="passcode_bad_url">Sorry. %s is a bad URL.</string>
+    <string name="label_comm_service">COMM Service</string>
+    <string name="message_comm_error_send_message">Cosmic rays blocked your last message.</string>
+    <string name="invites_remaining">%d Invites remaining</string>
+    <string name="invites_invite">Invite</string>
+    <string name="invites_invited">Invite sent</string>
+    <string name="invites_joined">Joined</string>
+    <string name="invites_enter_email">Enter an email address</string>
+    <string name="invites_error_retry">Error. Touch to retry</string>
+    <string name="invites_error_generic">Could not invite %s</string>
+    <string name="invites_error_already_activated">Could not invite %s: already joined</string>
+    <string name="invites_error_out_of_invites">Could not invite %s: out of invites</string>
+    <string name="invites_success">%s invited</string>
+    <string name="title_recruit">RECRUIT</string>
+    <string name="comm_no_messages_in_range">No more messages in range. Retrying in %s seconds…</string>
+    <string name="range_filter_range_text_template">%skm</string>
+    <string name="range_filter_range_label">Range</string>
+    <string name="range_filter_local">Local</string>
+    <string name="range_filter_region">Region</string>
+    <string name="range_filter_global">Global</string>
+    <string name="range_filter_infinity">∞</string>
+    <string name="invite_redemption_message">Ingress requires an invitation to play.</string>
+    <string name="invite_redemption_message_prompt">Activation code:</string>
+    <string name="invite_redemption_activate_button_text">ACTIVATE</string>
+    <string name="invite_redemption_activate_failed">Activation code validation failed.</string>
+    <string name="headphones_recommended">[ Headphones recommended ]</string>
+    <string name="credentials_problem_must_quit">This application requires authentication permissions but you have denied them. It must quit.</string>
+    <string name="portal_form_title">NEW PORTAL</string>
+    <string name="portal_form_edit_location">CONFIRM LOCATION:</string>
+    <string name="portal_form_name">NAME:</string>
+    <string name="portal_form_name_hint">Enter Portal Title</string>
+    <string name="portal_form_description">DESCRIPTION:</string>
+    <string name="portal_form_description_hint">Enter portal description.</string>
+    <string name="portal_form_attribution">by %1$s at %2$s</string>
+    <string name="portal_form_no_attribution">Submitted %s</string>
+    <string name="portal_form_attribution_default_nickname">Unknown</string>
+    <string name="ok">OK</string>
+    <string name="submit">SEND</string>
+    <string name="cancel">CANCEL</string>
+    <string name="location_picker_title">NEW PORTAL DISCOVERY</string>
+    <string name="location_picker_subtitle">SET PORTAL LOCATION:</string>
+    <string name="location_picker_title_correct">REPORT PROBLEM</string>
+    <string name="location_picker_subtitle_correct">CORRECT LOCATION:</string>
+    <string name="title_dialog_confirm_sync">Auto Sync Disabled</string>
+    <string name="message_dialog_confirm_sync">Auto-sync is required to upload portal discovery data. Would you like to open sync settings?</string>
+    <string name="location_required">Location required.</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="message_confirm_dialog_portal_discovery">Your %s has been submitted for review.</string>
+    <string name="message_dialog_portal_discovery_fail_too_big">Error: Portal images must be less than %d MB.</string>
+    <string name="title_confirm_submit_photo">NEW PORTAL IMAGE</string>
+    <string name="confirm_submit_photo_date">DATE: %s</string>
+    <string name="confirm_submit_photo_attribution">by %s</string>
+    <string name="new_photo">NEW PHOTO</string>
+    <string name="existing">EXISTING</string>
+    <string name="problem_type_bad_title">EDIT TITLE</string>
+    <string name="problem_type_bad_location">EDIT LOCATION</string>
+    <string name="problem_type_bad_description">ADD/EDIT DESCRIPTION</string>
+    <string name="problem_type_invalid">REPORT INVALID PORTAL</string>
+    <string name="report_a_problem">Report a problem</string>
+    <string name="message_enter_correct_title">ENTER CORRECT TITLE:</string>
+    <string name="message_enter_correct_description">ENTER CORRECT DESCRIPTION:</string>
+    <string name="title_previous_location">Previous location</string>
+    <string name="portal_discovery_submission_message_portal">Portal</string>
+    <string name="portal_discovery_submission_message_title">Portal Title</string>
+    <string name="portal_discovery_submission_message_description">Portal Description</string>
+    <string name="portal_discovery_submission_message_photo">Portal Photo</string>
+    <string name="portal_discovery_submission_message_location">Portal Location</string>
+    <string name="portal_discovery_submission_title_portal">Portal Submission</string>
+    <string name="portal_discovery_submission_title_title">Portal Title Submission</string>
+    <string name="portal_discovery_submission_title_description">Portal Description Submission</string>
+    <string name="portal_discovery_submission_title_photo">Portal Photo Submission</string>
+    <string name="portal_discovery_submission_title_location">Portal Location Submission</string>
+    <string name="message_unrecoverable_youtube_error">Sorry, this video cannot be played by Ingress.</string>
+    <string name="action_open_in_browser">Open in Browser</string>
+    <string name="portal_no_longer_exists">Portal no longer exists.</string>
+    <string name="multi_photo_error_retry">Error. Touch to retry.</string>
+    <string name="action_done">DONE</string>
+    <string name="hidden_count">+%d</string>
+    <string name="notification_silent">Silent</string>
+    <string name="notification_default">Default</string>
+    <string name="title_invite_accepted">Recruit activated</string>
+    <string name="title_achievement_unlocked">Achievement</string>
+    <string name="request_activation_code_touch_here">Touch here to request an activation code</string>
+    <string name="action_request">REQUEST</string>
+    <string name="request_activation_code_progress">Requesting Activation Code…</string>
+    <string name="request_activation_code_confirmed">An activation code will be sent to the following email address as soon as it becomes available:</string>
+    <string name="request_activation_code_failure">Failed to request activation code. Please try again later.</string>
+    <string name="report_invalid_portal_does_not_exist">Does not exist</string>
+    <string name="report_invalid_portal_location_not_interesting">Not an interesting location</string>
+    <string name="report_invalid_portal_location_not_safe">Not in a safe location</string>
+    <string name="report_invalid_portal_location_not_accessible">Not accessible to the public</string>
+    <string name="report_invalid_portal_duplicate">Duplicate of another Portal</string>
+    <string name="report_invalid_portal_other">Other:</string>
+    <string name="edit">EDIT</string>
+    <string name="add_description">ADD DESCRIPTION</string>
+    <string name="action_view_profile">View Player Profile</string>
+    <string name="action_send_message">Send Message</string>
+    <string name="toast_long_press_to_show_profile">Hint: Long press on an agent codename to view their profile.</string>
+</resources>

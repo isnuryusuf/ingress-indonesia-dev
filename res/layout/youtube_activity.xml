@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="left|center" android:id="@id/title" android:background="@drawable/portal_info_dialog_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:singleLine="true" />
+    <fragment android:id="@id/youtube_player" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.google.android.youtube.player.YouTubePlayerSupportFragment" />
+</LinearLayout>

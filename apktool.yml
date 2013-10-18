@@ -1,0 +1,33 @@
+version: 2.0.0.SNAPSHOT_DEV
+apkFileName: ingress-1.37.2-broot-1.0.2.13.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.nianticproject.ingress
+  cur_package_id: '127'
+  orig_package: com.nianticproject.ingress
+versionInfo:
+  versionCode: '10372'
+  versionName: 1.37.2
+compressionType: false
+unknownFiles:
+  README: '8'
+  build-data.properties: '8'
+  com/nianticproject/ingress/shared/Setup.java.template: '8'
+  com/nianticproject/ingress/shared/Version.java.template: '8'
+  com/google/userfeedback/android/api/README: '8'
+  com/google/userfeedback/android/api/README-android: '8'
+  com/google/android/feedback/proto/README: '8'
+  com/badlogic/gdx.gwt.xml: '8'
+  com/badlogic/gdx/utils/arial-15.fnt: '8'
+  com/badlogic/gdx/utils/arial-15.png: '8'
+  com/esotericsoftware/TableLayout.gwt.xml: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+  jsr305_annotations/v0_r47/V0_r47.gwt.xml: '8'
+  jsr330_inject/Jsr330_inject.gwt.xml: '8'
+  jsr330_inject/v0_r67/V0_r67.gwt.xml: '8'

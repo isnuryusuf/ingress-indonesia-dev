@@ -1,0 +1,194 @@
+
+portal_ui.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+portal
+  rotate: false
+  xy: 1, 78
+  size: 235, 433
+  orig: 235, 433
+  offset: 0, 0
+  index: -1
+energy-alien
+  rotate: false
+  xy: 119, 1
+  size: 13, 2
+  orig: 13, 2
+  offset: 0, 0
+  index: -1
+energy-resistance
+  rotate: false
+  xy: 392, 434
+  size: 13, 2
+  orig: 13, 2
+  offset: 0, 0
+  index: -1
+resonator-N
+  rotate: false
+  xy: 103,125
+  size: 73,78
+  orig: 73,78
+  offset: 0, 0
+  index: -1
+energy-N
+  rotate: false
+  xy: 144,0
+  size: 15,72
+  orig: 15,72
+  offset: 0, 0
+  index: -1
+level-N
+  rotate: false
+  xy: 135,80
+  size: 32,37
+  orig: 32,37
+  offset: 0, 0
+  index: -1
+resonator-NE
+  rotate: false
+  xy: 119,152
+  size: 111,71
+  orig: 111,71
+  offset: 0, 0
+  index: -1
+energy-NE
+  rotate: false
+  xy: 206,0
+  size: 14,72
+  orig: 14,72
+  offset: 0, 0
+  index: -1
+level-NE
+  rotate: false
+  xy: 197,80
+  size: 32,37
+  orig: 32,37
+  offset: 0, 0
+  index: -1
+resonator-E
+  rotate: false
+  xy: 108,191
+  size: 135,77
+  orig: 135,77
+  offset: 0, 0
+  index: -1
+energy-E
+  rotate: false
+  xy: 206,361
+  size: 15,72
+  orig: 15,72
+  offset: 0, 0
+  index: -1
+level-E
+  rotate: false
+  xy: 197,316
+  size: 32,37
+  orig: 32,37
+  offset: 0, 0
+  index: -1
+resonator-SE
+  rotate: false
+  xy: 98,200
+  size: 91,109
+  orig: 91,109
+  offset: 0, 0
+  index: -1
+energy-SE
+  rotate: false
+  xy: 144,361
+  size: 15,72
+  orig: 15,72
+  offset: 0, 0
+  index: -1
+level-SE
+  rotate: false
+  xy: 135,316
+  size: 32,37
+  orig: 32,37
+  offset: 0, 0
+  index: -1
+resonator-S
+  rotate: false
+  xy: 42,194
+  size: 87,115
+  orig: 87,115
+  offset: 0, 0
+  index: -1
+energy-S
+  rotate: false
+  xy: 83,361
+  size: 14,72
+  orig: 14,72
+  offset: 0, 0
+  index: -1
+level-S
+  rotate: false
+  xy: 74,316
+  size: 32,37
+  orig: 32,37
+  offset: 0, 0
+  index: -1
+resonator-SW
+  rotate: false
+  xy: 0,187
+  size: 116,75
+  orig: 116,75
+  offset: 0, 0
+  index: -1
+energy-SW
+  rotate: false
+  xy: 16,361
+  size: 14,72
+  orig: 14,72
+  offset: 0, 0
+  index: -1
+level-SW
+  rotate: false
+  xy: 7,316
+  size: 32,37
+  orig: 32,37
+  offset: 0, 0
+  index: -1
+resonator-W
+  rotate: false
+  xy: 8,147
+  size: 105,73
+  orig: 105,73
+  offset: 0, 0
+  index: -1
+energy-W
+  rotate: false
+  xy: 16,0
+  size: 14,72
+  orig: 14,72
+  offset: 0, 0
+  index: -1
+level-W
+  rotate: false
+  xy: 7,80
+  size: 32,37
+  orig: 32,37
+  offset: 0, 0
+  index: -1
+resonator-NW
+  rotate: false
+  xy: 61,126
+  size: 70,78
+  orig: 70,78
+  offset: 0, 0
+  index: -1
+energy-NW
+  rotate: false
+  xy: 83,0
+  size: 14,72
+  orig: 14,72
+  offset: 0, 0
+  index: -1
+level-NW
+  rotate: false
+  xy: 74,80
+  size: 32,37
+  orig: 32,37
+  offset: 0, 0
+  index: -1

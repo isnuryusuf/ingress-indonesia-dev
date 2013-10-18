@@ -1,0 +1,83 @@
+/*
+ * Copyright 2011 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy of
+ * the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */
+package com.nianticproject.ingress.shared;
+
+/**
+ * Class to be customized with app-specific data. The Eclipse plugin will set
+ * these values when the project is created.
+ *
+ * WARNING WARNING WARNING!...
+ * The build system mucks with this file. Don't put anything in this file that
+ * shouldn't be mucked with. If possible just leave member assignments here!...
+ */
+public class Setup {
+  /**
+   * List of possible type for the Nemesis client.
+   * These must match the values in generate_from_templates.py.
+   */
+  public enum ClientType {
+    DEVELOPMENT,
+    BETASPIKE,
+    PRODUCTION,
+  }
+
+  /**
+   * The AppEngine app name, used to construct the production service URL
+   * below.
+   */
+  private static final String APP_NAME = "${hostname}";
+
+  /**
+   * The URL of the production service.
+   */
+  public static final String PROD_DOMAIN = ".${domain}";
+
+  /**
+   * Flag that is set to true if it's a dev client or not.
+   */
+  public static final ClientType CLIENT_TYPE = ${setup_target};
+
+  /**
+   * Flag that is set to true if the client is a development build.
+   *
+   * NOTE: This is done explicitly as a static boolean and not as a comparison of
+   * {@link CLIENT_TYPE} and {@link ClientType.DEVELOPMENT} because ProGuard is
+   * incapable of resolving that comparison during static analysis.
+   */
+  public static final boolean CLIENT_DEVELOPMENT_BUILD = ${client_development_build};
+
+  /**
+   * The URL of the production service to use for Android client calls.
+   */
+  public static final String PROD_URL = "https://m-dot-" + APP_NAME + PROD_DOMAIN;
+
+  /**
+   * The default instance of the production service (not to be used for Android
+   * client calls).
+   */
+  public static final String PROD_URL_DEFAULT = "https://" + APP_NAME + PROD_DOMAIN;
+
+  /**
+   * The C2DM sender ID for the server. A C2DM registration with this name
+   * must exist for the app to function correctly.
+   */
+  public static final String SENDER_ID = "niantic.nemesis@gmail.com";
+
+  /**
+   * Whether to show the "bootcamp" sequence on the client.
+   */
+  public static final boolean SHOW_BOOTCAMP = false;
+}

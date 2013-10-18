@@ -1,0 +1,12 @@
+This package is for Google Feedback API client code.
+
+Here is the guide on integrating google feedback in android pre-ics:
+http://go/maf
+
+The guide says to copy this code from:
+java/com/google/userfeedback/android/api
+
+This client code was copied and changed to support auto reporting exceptions.
+User interaction and PII data were removed.
+All changes are marked with NOTE comments, except import changes.
+Imports were changed to not use internal google libs.

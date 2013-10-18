@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_google_play_services_install_title">Установити Google Play Послуги</string>
+    <string name="common_google_play_services_install_text_phone">Ця програма не запуститься без Google Play Послуг, яких немає у вашому телефоні.</string>
+    <string name="common_google_play_services_install_text_tablet">Ця програма не запуститься без Google Play Послуг, яких немає на вашому планшетному ПК.</string>
+    <string name="common_google_play_services_install_button">Установити Google Play Послуги</string>
+    <string name="common_google_play_services_enable_title">Увімкнути Google Play Послуги</string>
+    <string name="common_google_play_services_enable_text">Ця програма не працюватиме, поки ви не ввімкнете Google Play Послуги.</string>
+    <string name="common_google_play_services_enable_button">Увімкнути Google Play Послуги</string>
+    <string name="common_google_play_services_update_title">Оновити Google Play Послуги</string>
+    <string name="common_google_play_services_update_text">Ця програма не запуститься, поки ви не оновите Google Play Послуги.</string>
+    <string name="common_google_play_services_unknown_issue">Google Play Послуги – невідома проблема.</string>
+    <string name="common_google_play_services_unsupported_title">Сервіси Google Play</string>
+    <string name="common_google_play_services_unsupported_text">Ваш пристрій не підтримує Сервіси Google Play, від яких залежить робота деяких програм. Зверніться по допомогу до виробника.</string>
+    <string name="common_google_play_services_update_button">Оновити</string>
+    <string name="common_signin_button_text">Увійти</string>
+    <string name="common_signin_button_text_long">Увійти в обл.запис Google</string>
+</resources>

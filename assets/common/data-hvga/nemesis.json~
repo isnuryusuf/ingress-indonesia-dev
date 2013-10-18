@@ -1,0 +1,1603 @@
+{
+  com.badlogic.gdx.graphics.Color: {
+    activeGrid: {
+      a: 1.0,
+      b: 0.988235,
+      g: 1.0,
+      r: 0.0
+    },
+    activeGridEdge: {
+      a: 1.0,
+      b: 1.0,
+      g: 0.588235,
+      r: 0.0
+    },
+    activePulseTint: {
+      a: 1.0,
+      b: 1.0,
+      g: 1.0,
+      r: 1.0
+    },
+    aliens: {
+      a: 1.0,
+      b: 0.44,
+      g: 0.95,
+      r: 0.0
+    },
+    aliens-edges: {
+      a: 1.0,
+      b: 0.0,
+      g: 0.5,
+      r: 0.0
+    },
+    aliens-face: {
+      a: 1.0,
+      b: 0.43,
+      g: 0.74,
+      r: 0.44
+    },
+    background: {
+      a: 1.0,
+      b: 0.0,
+      g: 0.0,
+      r: 0.0
+    },
+    black: {
+      a: 1,
+      b: 0,
+      g: 0,
+      r: 0
+    },
+    buttonblue: {
+      a: 1,
+      b: 1,
+      g: 1,
+      r: 0.57
+    },
+    buttonblue-muted: {
+      a: 1,
+      b: 0.63,
+      g: 0.59,
+      r: 0.3
+    },
+    buttonblue-completed: {
+      a: 1,
+      b: 0.75,
+      g: 0.64,
+      r: 0.27
+    },
+    compass-bearing: {
+      a: 1,
+      b: 1.0,
+      g: 1.0,
+      r: 1.0
+    },
+    darkgray: {
+      a: 1,
+      b: 0.3,
+      g: 0.3,
+      r: 0.3
+    },
+    gray50: {
+      a: 1,
+      b: 0.5,
+      g: 0.5,
+      r: 0.5,
+    },
+    darkgreen: {
+      a: 1,
+      b: 0,
+      g: 0.4,
+      r: 0
+    },
+    full: {
+      a: 1,
+      b: 0.5,
+      g: 0.5,
+      r: 0.5
+    },
+    gray: {
+      a: 1,
+      b: 0.65,
+      g: 0.65,
+      r: 0.65
+    },
+    green: {
+      a: 1,
+      b: 0,
+      g: 1,
+      r: 0
+    },
+    inRange: {
+      a: 1,
+      b: 0.9,
+      g: 0.9,
+      r: 0.9
+    },
+    inactiveGrid: {
+      a: 1.0,
+      b: 0.933333,
+      g: 0.933333,
+      r: 0.933333
+    },
+    inactivePulseTint: {
+      a: 1.0,
+      b: 0.733333,
+      g: 0.733333,
+      r: 0.733333
+    },
+    insufficientAccessTint: {
+      a: 1.0,
+      b: 0.5,
+      g: 0.5,
+      r: 0.5
+    },
+    jarvisCorruption: {
+      a: 0.25,
+      b: 0.0,
+      g: 0.5,
+      r: 0.0
+    },
+    level_0: {
+      a: 1,
+      b: 0.5,
+      g: 0.5,
+      r: 0.5
+    },
+    level_1: {
+      a: 1,
+      b: 0.35,
+      g: 0.81,
+      r: 1
+    },
+    level_2: {
+      a: 1,
+      b: 0.19,
+      g: 0.65,
+      r: 1
+    },
+    level_3: {
+      a: 1,
+      b: 0.08,
+      g: 0.45,
+      r: 1
+    },
+    level_4: {
+      a: 1,
+      b: 0,
+      g: 0,
+      r: 0.89
+    },
+    level_5: {
+      a: 1,
+      b: 0.57,
+      g: 0.16,
+      r: 0.99
+    },
+    level_6: {
+      a: 1,
+      b: 0.8,
+      g: 0.15,
+      r: 0.92
+    },
+    level_7: {
+      a: 1,
+      b: 0.88,
+      g: 0.14,
+      r: 0.76
+    },
+    level_8: {
+      a: 1,
+      b: 0.96,
+      g: 0.15,
+      r: 0.59
+    },
+    lightgray: {
+      a: 1,
+      b: 0.8,
+      g: 0.8,
+      r: 0.8
+    },
+    interface-yellow: {
+      a: 1.0,
+      b: 0.32,
+      g: 0.84,
+      r: 1.0
+    },
+    neutral: {
+      a: 1.0,
+      b: 0.733333,
+      g: 0.733333,
+      r: 0.733333
+    },
+    neutral-edges: {
+      a: 1.0,
+      b: 1.0,
+      g: 1.0,
+      r: 1.0
+    },
+    neutral-xm: {
+      a: 1.0,
+      b: 0.7,
+      g: 0.7,
+      r: 1.0
+    },
+    neutral-face: {
+      a: 1.0,
+      b: 0.68,
+      g: 0.73,
+      r: 0.76
+    },
+    orange: {
+      a: 1,
+      b: 0.066,
+      g: 0.611,
+      r: 0.94
+    },
+    outOfRange: {
+      a: 1,
+      b: 0.1,
+      g: 0.1,
+      r: 0.8
+    },
+    portalLink: {
+      a: 0.25,
+      b: 0.71,
+      g: 0.44,
+      r: 0.4
+    },
+    portalLinkPulse: {
+      a: 0.25,
+      b: 0.898039,
+      g: 0.898039,
+      r: 1.0
+    },
+    powerup-player: {
+      a: 1,
+      b: 0,
+      g: 0.7,
+      r: 1
+    },
+    profiles-badge-earned-dialog-title: {
+      a: 1,
+      b: 1,
+      g: 0.95,
+      r: 0
+    },
+    profiles-metric-name: {
+      a: 1,
+      b: 0.71,
+      g: 0.73,
+      r: 0
+    },
+    profiles-metric-value: {
+      a: 1,
+      b: 0.32,
+      g: 0.84,
+      r: 1
+    },
+    profiles-category: {
+      a: 1,
+      b: 1,
+      g: 0.95,
+      r: 0
+    },
+    profiles-badge-details-desc: {
+      a: 1,
+      b: 0.71,
+      g: 0.73,
+      r: 0
+    },
+    profiles-badge-details-title: {
+      a: 1,
+      b: 1,
+      g: 0.95,
+      r: 0
+    },
+    profiles-dim-yellow: {
+      a: 1,
+      b: 0.33,
+      g: 0.55,
+      r: 0.61
+    },
+    profiles-dark-green: {
+      a: 1,
+      b: 0.36,
+      g: 0.4,
+      r: 0
+    },
+    profiles-stats-filters-tab-default: {
+      a: 1,
+      b: 0.71,
+      g: 0.73,
+      r: 0
+    },
+    profiles-stats-filters-tab-highlighted: {
+      a: 1,
+      b: 1,
+      g: 0.95,
+      r: 0
+    },
+    rarity_0: {
+      a: 1,
+      b: 0.7,
+      g: 0.7,
+      r: 0.7
+    },
+    rarity_1: {
+      a: 1,
+      b: 0.75,
+      g: 1.0,
+      r: 0.55
+    },
+    rarity_2: {
+      a: 1,
+      b: 1.0,
+      g: 0.66,
+      r: 0.45
+    },
+    rarity_3: {
+      a: 1,
+      b: 1.0,
+      g: 0.55,
+      r: 0.69
+    },
+    rarity_4: {
+      a: 1,
+      b: 0.97,
+      g: 0.55,
+      r: 1.0
+    },
+    rarity_5: {
+      a: 1,
+      b: 0.4,
+      g: 0.4,
+      r: 1.0
+    },
+    red: {
+      a: 1,
+      b: 0,
+      g: 0,
+      r: 1
+    },
+    remote-portal: {
+      a: 1.0,
+      b: 0.17,
+      g: 0.56,
+      r: 0.96
+    },
+    remote-portal-sub-label: {
+      a: 1.0,
+      b: 0.66,
+      g: 0.73,
+      r: 0.79
+    },
+    resistance: {
+      a: 1.0,
+      b: 1.0,
+      g: 0.76,
+      r: 0.0
+    },
+    resistance-edges: {
+      a: 1.0,
+      b: 0.6,
+      g: 0.48,
+      r: 0.0
+    },
+    resistance-face: {
+      a: 1.0,
+      b: 1.0,
+      g: 0.901961,
+      r: 0.505882
+    },
+    white: {
+      a: 1,
+      b: 1,
+      g: 1,
+      r: 1
+    },
+    xm-high: {
+      a: 1,
+      b: 1,
+      g: 0.35,
+      r: 0.31
+    },
+    xm-highest: {
+      a: 0.75,
+      b: 1,
+      g: 0.31,
+      r: 0.5
+    },
+    xm-low: {
+      a: 0.75,
+      b: 1,
+      g: 0.76,
+      r: 0.37
+    },
+    xm-lowest: {
+      a: 0.75,
+      b: 1,
+      g: 0.97,
+      r: 0.47
+    },
+    xm-medium: {
+      a: 0.5,
+      b: 1,
+      g: 0.57,
+      r: 0.31
+    },
+    yellow: {
+      a: 1,
+      b: 0.32,
+      g: 0.84,
+      r: 1
+    },
+    bright-yellow: {
+      a: 1,
+      b: 0.26,
+      g: 0.84,
+      r: 1
+    },
+    score-enlightened: {
+      a: 1,
+      b: 0.1,
+      g: 0.93,
+      r: 0.17
+    },
+    score-resistance: {
+      a: 1,
+      b: 1,
+      g: 0.75,
+      r: 0
+    },
+    tab-blue: {
+      a: 1,
+      b: 1,
+      g: 1,
+      r: 0.57
+    },
+    primary-info: {
+      a: 1,
+      b: 1,
+      g: 1,
+      r: 1
+    },
+    secondary-info: {
+      a: 1,
+      b: 1,
+      g: 1,
+      r: 0.57
+    },
+    ochre-line: {
+      a: 0.9,
+      b: 0.2,
+      g: 0.7,
+      r: 1.0,
+    },
+    tutorial-text: {
+      a: 1,
+      b: 0,
+      g: 0.78,
+      r: 1,
+    },
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+    hud-rect-transparent-aliens: {
+      name: hud-rect-transparent,
+      color: aliens
+    },
+    hud-rect-transparent-neutral: {
+      name: hud-rect-transparent,
+      color: neutral
+    },
+    hud-rect-transparent-resistance: {
+      name: hud-rect-transparent,
+      color: resistance
+    },
+    hud-rect-transparent-aliens-down: {
+      name: hud-rect-transparent-down,
+      color: aliens
+    },
+    hud-rect-transparent-neutral-down: {
+      name: hud-rect-transparent-down,
+      color: neutral
+    },
+    hud-rect-transparent-resistance-down: {
+      name: hud-rect-transparent-down,
+      color: resistance
+    }
+  },
+  com.badlogic.gdx.graphics.g2d.BitmapFont: {
+    default-font: {
+      file: coda-med.fnt
+    },
+    x-large-font: {
+      file: coda-lg.fnt
+    },
+    large-font: {
+      file: coda-lg.fnt
+    },
+    medium-mono-font: {
+      file: inconsolata-28.fnt
+    },
+    small-font: {
+      file: coda-sm.fnt
+    },
+    tiny-mono-font: {
+      file: inconsolata-14.fnt
+    },
+    x-small-font: {
+      file: coda-x-small.fnt
+    }
+  },
+  com.nianticproject.ingress.common.ui.elements.Compass$CompassStyle: {
+    default: {
+      xRelativeToScreenWidth: 0,
+      yRelativeToScreenHeight: 0.1,
+      widthInDips: 64,
+      heightInDips: 64
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+    default: {
+      down: default_btn_down,
+      up: default_btn
+    },
+    disabled: {
+      down: default_btn_disabled,
+      up: default_btn_disabled
+    },
+    inventory-card: {
+      down: item-card-bg-down,
+      up: item-card-bg
+    },
+    inventory-card-disabled: {
+      down: item-card-bg-disabled-down,
+      up: item-card-bg-disabled
+    },
+    inventory-card-highlight: {
+      down: nav-button-clear-down,
+      up: message-window-highlight
+    },
+    item-browser-selected: {
+      down: owned-item-button-outline-down,
+      up: owned-item-button-outline
+    },
+    item-browser-unselected: {
+      down: item-button-outline-down,
+      up: item-button-outline
+    },
+    item-outline: {
+      down: item-button-outline-down,
+      up: item-button-outline
+    },
+    item-disabled: {
+      down: item-disabled-highlight,
+      up: item-disabled-highlight
+    },
+    large: {
+      down: default_btn_down,
+      up: default_btn
+    },
+    owned-item-outline: {
+      down: owned-item-button-outline-down,
+      up: owned-item-button-outline
+    },
+    ops-close: {
+      up: ops-close-button-default,
+      down: ops-close-button-pressed
+    },
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+    default: {
+      checkboxOn: btn-check-on-holo-light,
+      checkboxOff: btn-check-off-holo-light,
+      font: small-font,
+      fontColor: white
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+    audio-play: {
+      down: default_btn_down,
+      up: default_btn,
+      imageUp: audio-btn-play,
+      imageDown: audio-btn-play-down
+    },
+    audio-pause: {
+      down: default_btn_down,
+      up: default_btn,
+      imageUp: audio-btn-pause,
+      imageDown: audio-btn-pause-down
+    },
+    audio-rewind: {
+      down: default_btn_down,
+      up: default_btn,
+      imageUp: audio-btn-seek,
+      imageDown: audio-btn-seek-down
+    },
+    tutorial-next: {
+      imageUp: next-btn,
+      imageDown: next-btn-down
+    },
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+    ada-location: {
+      font: small-font,
+      fontColor: yellow
+    },
+    ada-title: {
+      font: large-font,
+      fontColor: yellow
+    },
+    default: {
+      font: default-font,
+      fontColor: white
+    },
+    default-blue: {
+      font: default-font,
+      fontColor: buttonblue
+    },
+    default-button: {
+      font: default-font,
+      fontColor: white
+    },
+    default-dialog: {
+      font: default-font,
+      fontColor: white
+    },
+    default-orange: {
+      font: default-font,
+      fontColor: orange
+    },
+    default-yellow: {
+      font: default-font,
+      fontColor: yellow
+    },
+    details-title: {
+      font: small-font,
+      fontColor: buttonblue
+    },
+    inventory-footer: {
+      font: small-font,
+      fontColor: secondary-info
+    },
+    inventory-header: {
+      font: default-font,
+      fontColor: primary-info
+    },
+    inventory-header-count: {
+      font: default-font,
+      fontColor: lightgray
+    },
+    inventory-title: {
+      font: default-font,
+      fontColor: lightgray
+    },
+    jarvis-message-label: {
+      font: default-font,
+      fontColor: green
+    },
+    jarvis-terminal: {
+      font: medium-mono-font,
+      fontColor: white
+    },
+    jarvis-terminal-red: {
+      font: medium-mono-font,
+      fontColor: red
+    },
+    large: {
+      font: large-font,
+      fontColor: white
+    },
+    message-label: {
+      font: default-font,
+      fontColor: buttonblue
+    },
+    mission-briefing-objective: {
+      font: default-font,
+      fontColor: interface-yellow
+    },
+    mission-briefing-title-old: {
+      font: large-font,
+      fontColor: white
+    },
+    mission-briefing-title: {
+      font: default-font,
+      fontColor: white
+    },
+    mission-list: {
+      font: small-font,
+      fontColor: buttonblue
+    },
+    mission-list-disabled: {
+      font: small-font,
+      fontColor: lightgray
+    },
+    mod-details-stats: {
+      font: small-font,
+      fontColor: lightgray
+    },
+    owner-details: {
+      font: small-font,
+      fontColor: orange
+    },
+    portal-details-stats: {
+      font: small-font,
+      fontColor: lightgray
+    },
+    portal-info-dialog: {
+      font: default-font,
+      fontColor: white
+    },
+    portal-attribution: {
+      font: x-small-font,
+      fontColor: buttonblue-muted
+    },
+    portal-stats: {
+      font: small-font,
+      fontColor: buttonblue
+    },
+    portal-enemy-tag: {
+      font: small-font,
+      fontColor: red,
+    },
+    portal-description: {
+      font: x-small-font,
+      fontColor: buttonblue
+    },
+    portal-hud-address: {
+      font: small-font,
+      fontColor: buttonblue
+    },
+    portal-hud-range: {
+      font: small-font,
+      fontColor: white
+    },
+    profiles-avatar-error-label: {
+      font: default-font,
+      fontColor: buttonblue
+    },
+    profiles-avatar-selection-layer-name: {
+      font: small-font,
+      fontColor: white,
+    },
+    profiles-avatar-title: {
+      font: default-font,
+      fontColor: buttonblue
+    },
+    profiles-badge-details-desc: {
+      font: small-font,
+      fontColor: profiles-badge-details-desc
+    },
+    profiles-badge-details-title: {
+      font: large-font,
+      fontColor: profiles-badge-details-title
+    },
+    profiles-badge-details-tier-value: {
+      font: small-font,
+      fontColor: white
+    },
+    profiles-badge-earned-dialog-title: {
+      font: default-font,
+      fontColor: profiles-badge-earned-dialog-title
+    },
+    profiles-badge-earned-dialog-name: {
+      font: small-font,
+      fontColor: yellow
+    },
+    profiles-badges-error: {
+      font: x-small-font,
+      fontColor: yellow
+    },
+    profiles-badges-loading: {
+      font: x-small-font,
+      fontColor: yellow
+    },
+    profiles-badges-more: {
+      font: x-small-font,
+      fontColor: yellow
+    },
+    profiles-category: {
+      font: large-font,
+      fontColor: profiles-category
+    },
+    profiles-metric-name: {
+      font: small-font,
+      fontColor: profiles-metric-name
+    },
+    profiles-metric-value: {
+      font: small-font,
+      fontColor: profiles-metric-value
+    },
+    profiles-player-header-nickname-resistance: {
+      font: large-font,
+      fontColor: resistance
+    },
+    profiles-player-header-nickname-aliens: {
+      font: large-font,
+      fontColor: aliens
+    },
+    profiles-player-header-nickname-neutral: {
+      font: large-font,
+      fontColor: neutral
+    },
+    profiles-player-header-ap: {
+      font: default-font,
+      fontColor: yellow
+    },
+    profiles-player-header-ap-to-next-level: {
+      font: small-font,
+      fontColor: profiles-dim-yellow
+    },
+    profiles-player-header-level-number: {
+      font: x-large-font,
+      fontColor: yellow
+    },
+    profiles-player-header-level: {
+      font: small-font,
+      fontColor: profiles-dim-yellow
+    },
+    profiles-select-badge-for-details: {
+      font: small-font,
+      fontColor: profiles-dark-green
+    },
+    resonator-details-stats: {
+      font: small-font,
+      fontColor: lightgray
+    },
+    resource-count: {
+      font: small-font,
+      fontColor: lightgray
+    },
+    resource-level: {
+      font: small-font,
+      fontColor: lightgray
+    },
+    small: {
+      font: small-font,
+      fontColor: white
+    },
+    small-white: {
+      font: small-font,
+      fontColor: white
+    },
+    score-enlightened-default-font: {
+      font: default-font,
+      fontColor: score-enlightened
+    },
+    score-resistance-default-font: {
+      font: default-font,
+      fontColor: score-resistance
+    },
+    score-enlightened: {
+      font: small-font,
+      fontColor: score-enlightened
+    },
+    score-resistance: {
+      font: small-font,
+      fontColor: score-resistance
+    },
+    small-yellow: {
+      font: small-font,
+      fontColor: yellow
+    },
+    tiny: {
+      font: x-small-font,
+      fontColor: buttonblue
+    },
+    upgrade-details: {
+      font: small-font,
+      fontColor: white
+    },
+    bar-energy-gain: {
+      font: default-font,
+      fontColor: white
+    },
+    bar-ap-gain: {
+      font: default-font,
+      fontColor: green
+    },
+    hud-heal: {
+      font: large-font,
+      fontColor: green
+    },
+    hud-damage: {
+      font: large-font,
+      fontColor: red
+    },
+    hud-status: {
+      font: large-font,
+      fontColor: white
+    },
+    fc-header: {
+      font: default-font,
+      fontColor: yellow
+    },
+    fc-message: {
+      font: default-font,
+      fontColor: buttonblue
+    },
+    fc-error-message: {
+      font: small-font,
+      fontColor: red
+    },
+    fc-join-humanist: {
+      font: medium-mono-font,
+      fontColor: score-resistance
+    },
+    fc-join-enlightened: {
+      font: medium-mono-font,
+      fontColor: score-enlightened
+    },
+    fc-hint-humanist: {
+      font: default-font,
+      fontColor: score-resistance
+    },
+    fc-hint-enlightened: {
+      font: default-font,
+      fontColor: score-enlightened
+    },
+    butterbar-title: {
+      font: large-font,
+      fontColor: white
+    },
+    passcode-reward: {
+      font: small-font,
+      fontColor: interface-yellow
+    },
+    ops-title: {
+      font: small-font,
+      fontColor: yellow
+    },
+    owner-tag: {
+      font: x-small-font,
+      fontColor: black,
+      background: white,
+    },
+    remote-portal-sub-label: {
+      font: small-font,
+      fontColor: remote-portal-sub-label,
+    },
+    tutorial-header: {
+      font: small-font,
+      fontColor: tutorial-text,
+    },
+    error: {
+      font: default-font,
+      fontColor: red
+    },
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+    default: {
+      background: plain-background,
+      hScroll: default-slider,
+      hScrollKnob: default-round,
+      vScroll: default-slider,
+      vScrollKnob: default-round
+    },
+    profiles: {
+      background: null,
+      hScroll: null,
+      hScrollKnob: null,
+      vScroll: null,
+      vScrollKnob: profiles-scrollpane-knob
+    },
+    avatar-color-picker: {
+      background: null,
+      hScroll: null,
+      hScrollKnob: profiles-scrollpane-knob,
+      vScroll: null,
+      vScrollKnob: null
+    }
+  },
+  com.nianticproject.ingress.common.ui.widget.AudibleTwoTextButton$TwoTextButtonStyle: {
+    tab-bar-unchecked: {
+      up: tab-default,
+      down: tab-pressed,
+      font: default-font,
+      font2: small-font,
+      fontColor: tab-blue,
+      fontColor2: bright-yellow,
+    },
+    tab-bar-checked: {
+      up: tab-selected,
+      down: tab-pressed,
+      font: default-font,
+      font2: small-font,
+      fontColor: yellow,
+      fontColor2: bright-yellow,
+    },
+  },
+  com.nianticproject.ingress.common.playerprofile.AvatarView$AvatarViewStyle: {
+    default: {
+      font: large-font,
+      fontColor: yellow,
+      disabled: ap-progress-bg,
+      up: ap-progress-fill,
+      aliensTintColor: aliens,
+      resistanceTintColor: resistance,
+      neutralTintColor: neutral
+    },
+  },
+  com.nianticproject.ingress.common.playerprofile.BadgeView$BadgeViewStyle: {
+    default: {
+      up: hex-button-up,
+      down: hex-button-down,
+      checked: hex-button-checked,
+    }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+    apProgress-aliens: {
+      disabled: ap-progress-bg-aliens,
+      font: large-font,
+      fontColor: yellow,
+      up: ap-progress-meter-aliens,
+    },
+    apProgress-neutral: {
+      disabled: ap-progress-bg-neutral,
+      font: large-font,
+      fontColor: yellow,
+      up: ap-progress-meter-neutral,
+    },
+    apProgress-resistance: {
+      disabled: ap-progress-bg-resistance,
+      font: large-font,
+      fontColor: yellow,
+      up: ap-progress-meter-resistance,
+    },
+    default: {
+      down: default_btn_down,
+      font: default-font,
+      fontColor: white,
+      up: default_btn
+    },
+    large: {
+      down: default_btn_down,
+      font: large-font,
+      fontColor: buttonblue,
+      up: default_btn
+    },
+    mission-list: {
+      checked: default_btn_down,
+      down: default_btn_down,
+      font: default-font,
+      fontColor: buttonblue,
+      up: default_btn
+    },
+    mission-list-selected: {
+      checked: default_btn_down,
+      down: default_btn_down,
+      font: default-font,
+      fontColor: yellow,
+      up: default_btn_down
+    },
+    mission-list-completed: {
+      checked: default_btn_down,
+      down: default_btn_down,
+      font: default-font,
+      fontColor: buttonblue-completed,
+      up: default_btn
+    },
+    owned-item-outline: {
+      down: owned-item-button-outline-down,
+      font: default-font,
+      fontColor: white,
+      up: owned-item-button-outline
+    },
+    player-compass: {
+      down: nav-button-down,
+      font: default-font,
+      fontColor: white,
+      up: nav-button
+    },
+    player-compass-clear: {
+      down: nav-button-clear-down,
+      font: default-font,
+      fontColor: white,
+      up: nav-button-clear
+    },
+    portal-key-chooser-handle: {
+      down: portal-key-chooser-handle-down,
+      font: default-font,
+      fontColor: white,
+      up: portal-key-chooser-handle
+    },
+    portal-vector-target: {
+      down: default_btn_yellow_down,
+      font: default-font,
+      fontColor: white,
+      up: default_btn_yellow
+    },
+    portal-vector-aliens: {
+      down: hud-rect-transparent-aliens-down,
+      font: default-font,
+      fontColor: bright-yellow,
+      up: hud-rect-transparent-aliens,
+    },
+    portal-vector-neutral: {
+      down: hud-rect-transparent-neutral-down,
+      font: default-font,
+      fontColor: bright-yellow,
+      up: hud-rect-transparent-neutral,
+    },
+    portal-vector-resistance: {
+      font: large-font,
+      down: hud-rect-transparent-resistance-down,
+      font: default-font,
+      fontColor: bright-yellow,
+      up: hud-rect-transparent-resistance,
+    },
+    profiles-stats-filter-tab: {
+      font: default-font,
+      downFontColor: profiles-stats-filters-tab-highlighted,
+      fontColor: profiles-stats-filters-tab-default,
+      checkedFontColor: profiles-stats-filters-tab-highlighted, 
+    },
+    remote-portal: {
+      font: small-font,
+      fontColor: remote-portal,
+      up: remote-portal-label
+    },
+    small: {
+      down: default_btn_down,
+      font: small-font,
+      fontColor: white,
+      up: default_btn
+    },
+    tab-bar-unchecked: {
+      up: tab-default,
+      down: tab-pressed,
+      font: default-font,
+      fontColor: tab-blue,
+    },
+    tab-bar-checked: {
+      up: tab-selected,
+      down: tab-pressed,
+      font: default-font,
+      fontColor: yellow,
+    },
+    fc-choose-humanist: {
+      down: score-resistance-background-down,
+      font: large-font,
+      fontColor: buttonblue,
+      up: score-resistance-background
+    },
+    fc-choose-enlightened: {
+      down: score-enlightened-background-down,
+      font: large-font,
+      fontColor: score-enlightened,
+      up: score-enlightened-background
+    },
+    passcode-fake-edittext: {
+      down: message-window,
+      font: small-font,
+      fontColor: lightgray,
+      up: message-window
+    },
+    passcode-fake-submit: {
+      down: message-window,
+      font: small-font,
+      up: message-window
+    },
+    menu-item-button-list: {
+      up: menu-item-button,
+      font: default-font,
+      fontColor: white,
+      down: menu-item-button-down
+    },
+    menu-item-button-list-disabled: {
+      up: menu-item-button-disabled,
+      font: default-font,
+      fontColor: gray,
+      down: menu-item-button-disabled
+    },
+    tutorial-abort: {
+      down: default_btn_down,
+      up: default_btn,
+      font: small-font,
+      fontColor: tutorial-text,
+    },
+    tutorial-step: {
+      down: default_btn_down,
+      checked: default_btn_down,
+      up: default_btn,
+      font: small-font,
+      fontColor: tutorial-text,
+    },
+    tutorial-launch-camera: {
+      down: default_btn_down,
+      checked: default_btn_down,
+      up: default_btn,
+      font: default-font,
+      fontColor: tutorial-text,
+    },
+    reset: {
+      up: menu-item-button,
+      font: default-font,
+      fontColor: buttonblue,
+      down: menu-item-button-down
+    },
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+    default: {
+      background: default-window,
+      titleFont: default-font,
+      titleFontColor: white
+    },
+    portalInvalid: {
+      background: card-disabled-selected,
+      titleFont: default-font,
+      titleFontColor: white
+    },
+    tutorial: {
+      background: tutorial_dialog,
+      titleFont: default-font,
+      titleFontColor: white
+    },
+  },
+  com.nianticproject.ingress.common.ui.widget.ActionButton$ActionButtonStyle: {
+    default: {
+      disabledButtonStyle: {
+        down: default_btn_disabled,
+        up: default_btn_disabled
+      },
+      enabledButtonStyle: {
+        down: default_btn_down,
+        up: default_btn
+      },
+      errorLabelStyle: {
+        font: small-font,
+        fontColor: red
+      },
+      mainDisabledLabelStyle: {
+        font: default-font,
+        fontColor: gray50
+      },
+      mainLabelStyle: {
+        font: default-font,
+        fontColor: buttonblue
+      },
+      subDisabledLabelStyle: {
+        font: small-font,
+        fontColor: gray50
+      },
+      subLabelStyle: {
+        font: small-font,
+        fontColor: buttonblue
+      }
+    },
+    default-white: {
+      disabledButtonStyle: {
+        down: default_btn_disabled,
+        up: default_btn_disabled
+      },
+      enabledButtonStyle: {
+        down: default_btn_down,
+        up: default_btn
+      },
+      errorLabelStyle: {
+        font: small-font,
+        fontColor: red
+      },
+      mainDisabledLabelStyle: {
+        font: default-font,
+        fontColor: gray50
+      },
+      mainLabelStyle: {
+        font: default-font,
+        fontColor: white
+      },
+      subDisabledLabelStyle: {
+        font: small-font,
+        fontColor: gray50
+      },
+      subLabelStyle: {
+        font: small-font,
+        fontColor: white
+      }
+    },
+    default-slim: {
+      disabledButtonStyle: {
+        down: menu-item-button-disabled,
+        up: menu-item-button-disabled,
+      },
+      enabledButtonStyle: {
+        down: menu-item-button-down,
+        up: menu-item-button,
+      },
+      errorLabelStyle: {
+        font: small-font,
+        fontColor: red
+      },
+      mainDisabledLabelStyle: {
+        font: default-font,
+        fontColor: gray50
+      },
+      mainLabelStyle: {
+        font: default-font,
+        fontColor: buttonblue
+      },
+      subDisabledLabelStyle: {
+        font: small-font,
+        fontColor: gray50
+      },
+      subLabelStyle: {
+        font: small-font,
+        fontColor: buttonblue
+      }
+    },
+    large-accept: {
+      disabledButtonStyle: {
+        down: positive_btn_background_disabled,
+        up: positive_btn_background_disabled
+      },
+      enabledButtonStyle: {
+        down: positive_btn_background_pressed,
+        up: positive_btn_background_default
+      },
+      errorLabelStyle: {
+        font: default-font,
+        fontColor: red
+      },
+      mainDisabledLabelStyle: {
+        font: large-font,
+        fontColor: gray50
+      },
+      mainLabelStyle: {
+        font: large-font,
+        fontColor: yellow
+      },
+      subDisabledLabelStyle: {
+        font: default-font,
+        fontColor: gray50
+      },
+      subLabelStyle: {
+        font: default-font,
+        fontColor: darkgray
+      }
+    },
+    medium-ignore: {
+      disabledButtonStyle: {
+        down: negative_btn_background_disabled,
+        up: negative_btn_background_disabled
+      },
+      enabledButtonStyle: {
+        down: negative_btn_background_pressed,
+        up: negative_btn_background_default
+      },
+      errorLabelStyle: {
+        font: small-font,
+        fontColor: red
+      },
+      mainDisabledLabelStyle: {
+        font: default-font,
+        fontColor: gray50
+      },
+      mainLabelStyle: {
+        font: default-font,
+        fontColor: buttonblue
+      },
+      subDisabledLabelStyle: {
+        font: small-font,
+        fontColor: gray50
+      },
+      subLabelStyle: {
+        font: small-font,
+        fontColor: buttonblue
+      }
+    },
+    primary-action: {
+      disabledButtonStyle: {
+        down: default_btn_yellow_disabled,
+        up: default_btn_yellow_disabled
+      },
+      enabledButtonStyle: {
+        down: default_btn_yellow_down,
+        up: default_btn_yellow
+      },
+      errorLabelStyle: {
+        font: small-font,
+        fontColor: red
+      },
+      mainDisabledLabelStyle: {
+        font: default-font,
+        fontColor: gray50
+      },
+      mainLabelStyle: {
+        font: default-font,
+        fontColor: bright-yellow
+      },
+      subDisabledLabelStyle: {
+        font: small-font,
+        fontColor: gray50
+      },
+      subLabelStyle: {
+        font: small-font,
+        fontColor: bright-yellow
+      }
+    }
+  },
+  com.nianticproject.ingress.common.ui.widget.ProgressIndicator$ProgressIndicatorStyle: {
+    ada-wheels-sm: {
+      inner: ada-wheels-inner-sm,
+      innerTime: -4.0,
+      outer: ada-wheels-outer-sm,
+      outerTime: 5.0
+    },
+    default: {
+      inner: progress-inner,
+      innerTime: -2.0,
+      outer: progress-outer,
+      outerTime: 3.0
+    }
+  },
+  com.nianticproject.ingress.common.ui.widget.Spectrograph$SpectrographStyle: {
+    default: {
+      bar: exp-bar
+    }
+  },
+  com.nianticproject.ingress.common.ui.widget.ProgressBar$ProgressBarStyle: {
+    default: {
+      border: nav-button-clear,
+      empty: transparent-no-outline,
+      full: nav-button,
+      smoothGrowRate: 0.2
+    },
+  },
+  com.nianticproject.ingress.common.ui.elements.HighLowWatermarkBar$Style: {
+    xmProgress-aliens: {
+      border: xm-progress-border,
+      empty: transparent-no-outline,
+      lowWater: xm-progress-full-aliens,
+      highWater: xm-progress-pending,
+      barPadding: 6,
+    },
+    xmProgress-resistance: {
+      border: xm-progress-border,
+      empty: transparent-no-outline,
+      lowWater: xm-progress-full-resistance,
+      highWater: xm-progress-pending,
+      barPadding: 6,
+    },
+    xmProgress-neutral: {
+      border: xm-progress-border,
+      empty: transparent-no-outline,
+      lowWater: xm-progress-full-neutral,
+      highWater: xm-progress-pending,
+      barPadding: 6,
+    },
+    portalXmProgress-aliens: {
+      border: null,
+      empty: transparent-no-outline,
+      lowWater: xm-progress-full-aliens,
+      highWater: xm-progress-pending,
+      barPadding: 2,
+    },
+    portalXmProgress-resistance: {
+      border: null,
+      empty: transparent-no-outline,
+      lowWater: xm-progress-full-resistance,
+      highWater: xm-progress-pending,
+      barPadding: 2,
+    },
+    portalXmProgress-neutral: {
+      border: null,
+      empty: transparent-no-outline,
+      lowWater: xm-progress-full-neutral,
+      highWater: xm-progress-pending,
+      barPadding: 2,
+    },
+  },
+  com.nianticproject.ingress.common.ui.hud.PortalInfoHud$PortalInfoHudStyle: {
+    default: {
+      addressLabelStyle: portal-hud-address,
+      rangeLabelStyle: portal-hud-range,
+    },
+    remote-portal: {
+      useRemotePortalViewStyle: true,
+      background: remote-portal-hud-bg,
+      addressLabelStyle: remote-portal-sub-label,
+      rangeLabelStyle: remote-portal-sub-label,
+    },
+  },
+  com.nianticproject.ingress.common.ui.elements.SegmentedProgressBar$SegmentedProgressBarStyle: {
+    scanner-ap-progress-aliens: {
+      border: ap-progress-border-aliens,
+      empty: transparent-no-outline,
+      lowWater: ap-progress-full-aliens,
+      highWater: transparent-no-outline,
+      heightDp: 6,
+      barPaddingPx: 2,
+    },
+    scanner-ap-progress-resistance: {
+      border: ap-progress-border-resistance,
+      empty: transparent-no-outline,
+      lowWater: ap-progress-full-resistance,
+      highWater: transparent-no-outline,
+      heightDp: 6,
+      barPaddingPx: 2,
+    },
+    scanner-ap-progress-neutral: {
+      border: ap-progress-border-neutral,
+      empty: transparent-no-outline,
+      lowWater: ap-progress-full-neutral,
+      highWater: transparent-no-outline,
+      heightDp: 6,
+      barPaddingPx: 2,
+    }
+  },
+  com.nianticproject.ingress.common.ui.widget.WidgetCarousel$WidgetCarouselStyle: {
+    default: {
+      background: transparent-no-outline,
+      curveFalloff: 2,
+      hScroll: scroll-bg,
+      hScrollKnob: scroll-knob,
+      widgetAlpha: 0.33,
+      widgetOverdraw: 0.6,
+      widgetScaling: 0.75,
+      widgetsPerSide: 2
+    },
+    inventory: {
+      flingTimeS: 1.75,
+      scrollSpeedScalar: 1.65,
+      curveFalloff: 2,
+      hScroll: scroll-bg,
+      hScrollKnob: scroll-knob,
+      widgetAlpha: 0.33,
+      widgetOverdraw: 0.3,
+      widgetScaling: 0.8,
+      widgetsPerSide: 2,
+      hScrollBarHeightDp: 14,
+      hScrollKnobWidthDp: 34,
+      hScrollKnobHeightDp: 22
+    },
+    modBrowser: {
+      curveFalloff: 1.5,
+      widgetAlpha: 0.33,
+      widgetOverdraw: 0.5,
+      widgetScaling: 0.33,
+      widgetsPerSide: 4
+    },
+    modBrowser2: {
+      scrollSpeedScalar: 1.02,
+      background: transparent-no-outline-75,
+      leftButton: arrow-left,
+      rightButton: arrow-right,
+      curveFalloff: 1.0,
+      widgetAlpha: 0.0,
+      widgetOverdraw: 1.02,
+      widgetScaling: 1.0,
+      widgetsPerSide: 3,
+      flingTimeS: 0.5,
+      centerOnSelection: true,
+      keepActorsInside: false
+    },
+    portalKeyChooser: {
+      curveFalloff: 1,
+      widgetAlpha: 0.33,
+      widgetOverdraw: 0.3,
+      widgetScaling: 0.5,
+      widgetsPerSide: 4
+    },
+    resonatorBrowser: {
+      curveFalloff: 1.5,
+      widgetAlpha: 0.33,
+      widgetOverdraw: 0.5,
+      widgetScaling: 0.33,
+      widgetsPerSide: 4
+    },
+    profiles-avatar-carousel: {
+      scrollSpeedScalar: 1.02,
+      leftButton: arrow-left,
+      rightButton: arrow-right,
+      curveFalloff: 1.0,
+      widgetAlpha: 0.0,
+      widgetOverdraw: 1.33,
+      widgetScaling: 1.0,
+      widgetsPerSide: 2,
+      flingTimeS: 0.5,
+      centerOnSelection: true,
+      keepActorsInside: true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nianticproject.ingress.ui.RangeFilter android:id="@id/range_filter" android:background="@drawable/range_filter_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tabhost_container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/range_container" android:background="@drawable/range_filter_label_bg" android:layout_width="100.0dip" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/modern_yellow" android:layout_gravity="center_horizontal" android:id="@id/range_text_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/range_filter_range_text_template" style="@style/Nemesis.Widget.TextView" />
+            <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/range_filter_range_label" style="@style/Nemesis.Widget.TextView.RangeFilter" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="14.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_weight="1.0">
+            <SeekBar android:id="@id/seekbar" android:paddingLeft="17.0dip" android:paddingRight="17.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:progressDrawable="@drawable/range_filter_progress" android:thumb="@drawable/range_filter_thumb" android:thumbOffset="17.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="left" android:id="@id/range_slot_label_local" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/range_filter_local" android:layout_weight="1.0" style="@style/Nemesis.Widget.TextView.RangeFilter" />
+                <TextView android:gravity="center" android:id="@id/range_slot_label_region" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/range_filter_region" android:layout_weight="1.0" style="@style/Nemesis.Widget.TextView.RangeFilter" />
+                <TextView android:gravity="right" android:id="@id/range_slot_label_global" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/range_filter_global" android:layout_weight="1.0" style="@style/Nemesis.Widget.TextView.RangeFilter" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.nianticproject.ingress.ui.RangeFilter>

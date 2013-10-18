@@ -1,0 +1,176 @@
+.class public Lcom/badlogic/gdx/Graphics$BufferFormat;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final a:I
+
+.field public final b:I
+
+.field public final coverageSampling:Z
+
+.field public final depth:I
+
+.field public final g:I
+
+.field public final r:I
+
+.field public final samples:I
+
+.field public final stencil:I
+
+
+# direct methods
+.method public constructor <init>(IIIIIIIZ)V
+    .locals 0
+    .parameter
+    .parameter
+    .parameter
+    .parameter
+    .parameter
+    .parameter
+    .parameter
+    .parameter
+
+    .prologue
+    .line 100
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 101
+    iput p1, p0, Lcom/badlogic/gdx/Graphics$BufferFormat;->r:I
+
+    .line 102
+    iput p2, p0, Lcom/badlogic/gdx/Graphics$BufferFormat;->g:I
+
+    .line 103
+    iput p3, p0, Lcom/badlogic/gdx/Graphics$BufferFormat;->b:I
+
+    .line 104
+    iput p4, p0, Lcom/badlogic/gdx/Graphics$BufferFormat;->a:I
+
+    .line 105
+    iput p5, p0, Lcom/badlogic/gdx/Graphics$BufferFormat;->depth:I
+
+    .line 106
+    iput p6, p0, Lcom/badlogic/gdx/Graphics$BufferFormat;->stencil:I
+
+    .line 107
+    iput p7, p0, Lcom/badlogic/gdx/Graphics$BufferFormat;->samples:I
+
+    .line 108
+    iput-boolean p8, p0, Lcom/badlogic/gdx/Graphics$BufferFormat;->coverageSampling:Z
+
+    .line 109
+    return-void
+.end method
+
+
+# virtual methods
+.method public toString()Ljava/lang/String;
+    .locals 2
+
+    .prologue
+    .line 112
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string/jumbo v1, "r: "
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget v1, p0, Lcom/badlogic/gdx/Graphics$BufferFormat;->r:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string/jumbo v1, ", g: "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    iget v1, p0, Lcom/badlogic/gdx/Graphics$BufferFormat;->g:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string/jumbo v1, ", b: "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    iget v1, p0, Lcom/badlogic/gdx/Graphics$BufferFormat;->b:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string/jumbo v1, ", a: "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    iget v1, p0, Lcom/badlogic/gdx/Graphics$BufferFormat;->a:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string/jumbo v1, ", depth: "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    iget v1, p0, Lcom/badlogic/gdx/Graphics$BufferFormat;->depth:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string/jumbo v1, ", stencil: "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    iget v1, p0, Lcom/badlogic/gdx/Graphics$BufferFormat;->stencil:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string/jumbo v1, ", num samples: "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    iget v1, p0, Lcom/badlogic/gdx/Graphics$BufferFormat;->samples:I
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string/jumbo v1, ", coverage sampling: "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    iget-boolean v1, p0, Lcom/badlogic/gdx/Graphics$BufferFormat;->coverageSampling:Z
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

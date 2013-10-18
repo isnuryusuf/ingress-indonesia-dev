@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/Nemesis.Widget.Comms.MessageContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@*android:id/list" android:clickable="false" style="@style/Nemesis.Widget.Comms.ListView" />
+    <ProgressBar android:id="@*android:id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/Nemesis.Widget.ProgressBar.Large" />
+</RelativeLayout>
