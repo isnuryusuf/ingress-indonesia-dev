@@ -5,9 +5,10 @@ jdk:
   - oraclejdk7
 env:
 before_install:
-- sudo apt-get update -qq
-- if [ `uname -m` = x86_64 ]; then sudo apt-get install -qq --force-yes libgd2-xpm ia32-libs ia32-libs-multiarch; fi
-- sudo apt-get install -qq --force-yes tcl-dev tk-dev
+#- sudo apt-get update -qq
+- uname -a
+#- if [ `uname -m` = x86_64 ]; then sudo apt-get install -qq --force-yes libgd2-xpm ia32-libs ia32-libs-multiarch; fi
+#- sudo apt-get install -qq --force-yes tcl-dev tk-dev
 - wget -O android-sdk-linux.tgz http://dl.google.com/android/android-sdk_r22.2.1-linux.tgz
 - tar -zxf android-sdk-linux.tgz
 - export ANDROID_HOME=`pwd`/android-sdk-linux
