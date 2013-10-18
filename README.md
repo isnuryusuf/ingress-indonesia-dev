@@ -11,3 +11,7 @@ sh build.sh
 ==================
 
 more info: https://github.com/Ingress-apk-mod/ingress-apk-mod
+
+
+Nightly builds [![Build Status](https://travis-ci.org/DeKaN/ingress-apk-mod.png?branch=master)](https://travis-ci.org/isnuryusuf/ingress-indonesia-dev)
+------------------------

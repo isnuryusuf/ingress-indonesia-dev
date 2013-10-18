@@ -14,7 +14,8 @@ before_install:
 - export ANDROID_HOME=`pwd`/android-sdk-linux
 - export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/build-tools/17.0.0/:${ANDROID_HOME}/tools/proguard/bin/
 - echo y | android update sdk --filter android-17,platform-tools,build-tools-17.0.0 --all --no-ui --force
-- sudo apt-get install python-yaml
+#- sudo apt-get install python-yaml
+- sudo apt-get install build-essential python-yaml cmake subversion wget python-setuptools mercurial git-core
 #- wget http://ingress-apk-mod.o4kapuk.info/files/lib.tar.gz
 #- tar xvfz lib.tar.gz
 #  - wget http://dekanszn.ru/ingress-latest.apk
@@ -58,7 +59,7 @@ script:
 - cp apktool.jar.file apktool.jar
 - java -jar apktool.jar b ingress-1.37.2-broot-1.0.2.13
 - python sign_apk.py ingress-1.37.2-broot-1.0.2.13/dist/ingress-1.37.2-broot-1.0.2.13.apk
-- ls -lah  ingress-1.37.2-broot-1.0.2.13/dist/
+- ls -lah  ingress-1.37.2-broot-1.0.2.13/dist/ | grep ingress --color
 
 after_success:
 branches:
