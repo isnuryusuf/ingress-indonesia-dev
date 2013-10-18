@@ -7,10 +7,23 @@ Unfortunately it's not that easy to build it from sources, because it was develo
 
 
 Quick build instructions
-sh build.sh
 ==================
 
-more info: https://github.com/Ingress-apk-mod/ingress-apk-mod
+localbuild: sh build.sh
+Travis-CI Build: https://travis-ci.org/isnuryusuf/ingress-indonesia-dev/
+
+
+
+more info
+==================
+https://github.com/Ingress-apk-mod/ingress-apk-mod
+
+useful link:
+http://androidcracking.blogspot.com/2010/09/examplesmali.html
+http://csscolorpicker.com/
+http://pallergabor.uw.hu/androidblog/dalvik_opcodes.html
+http://www.binaryhexconverter.com/hex-to-decimal-converter
+http://easycalculation.com/decimal-converter.php
 
 
 Nightly builds [![Build Status](https://travis-ci.org/DeKaN/ingress-apk-mod.png?branch=master)](https://travis-ci.org/isnuryusuf/ingress-indonesia-dev)
