@@ -18,16 +18,16 @@ before_install:
 #  - wget http://dekanszn.ru/ingress-latest.apk
 
 install:
-- pip install -r requirements.txt --use-mirrors
+#- pip install -r requirements.txt --use-mirrors
 
 ## Compile, Sign, Uinstall versi lama, Install versi baru, Start versi baru --- Yusuf Hadiwinata
-- echo " "
-- echo "Build" | grep Build --color
-- java -jar apktool.jar b ingress-1.37.2-broot-1.0.2.13
+#- echo " "
+#- echo "Build" | grep Build --color
+#- java -jar apktool.jar b ingress-1.37.2-broot-1.0.2.13
 
-- echo " "
-- echo "Sign" | grep Sign --color
-- ./sign_apk.py ingress-1.37.2-broot-1.0.2.13/dist/ingress-1.37.2-broot-1.0.2.13.apk
+#- echo " "
+#- echo "Sign" | grep Sign --color
+#- ./sign_apk.py ingress-1.37.2-broot-1.0.2.13/dist/ingress-1.37.2-broot-1.0.2.13.apk
 
 #- echo " "
 #- echo "Copying" | grep Copying --color
@@ -55,7 +55,7 @@ script:
 #  - python bin/prepare_lowres.py
 #  - python bin/release.py
 - java -jar apktool.jar b ingress-1.37.2-broot-1.0.2.13
-- ./sign_apk.py ingress-1.37.2-broot-1.0.2.13/dist/ingress-1.37.2-broot-1.0.2.13.apk
+- python sign_apk.py ingress-1.37.2-broot-1.0.2.13/dist/ingress-1.37.2-broot-1.0.2.13.apk
 
 
 after_success:
