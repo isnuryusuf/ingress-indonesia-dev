@@ -15,7 +15,7 @@ LINE_PREFIX_LEN = len(LINE_PREFIX)
 PAT_SUPER_OPCODE = re.compile(r'^%s\.super (L.+;)$' % LINE_PREFIX, re.MULTILINE)
 PAT_IMPLEMENTS_OPCODE = re.compile(r'^%s\.implements (L.+;)$' % LINE_PREFIX, re.MULTILINE)
 
-config = yaml.load(open('%s/config.yaml' % HOME))
+config = yaml.load(open('%s/ingress-indonesia-dev/config.yaml' % HOME))
 
 
 def load_obj():
