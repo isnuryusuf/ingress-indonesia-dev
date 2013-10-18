@@ -1,4 +1,12 @@
-#!/bin/bash
+language: python
+python:
+  - "3.2"
+jdk:
+  - oraclejdk7
+env:
+before_install:
+
+install:
 ## Compile, Sign, Uinstall versi lama, Install versi baru, Start versi baru --- Yusuf Hadiwinata
 echo " "
 echo "Build" | grep Build --color
@@ -23,3 +31,18 @@ adb install ingress-1.37.2-broot-1.0.2.13/dist/ingress-1.37.2-broot-1.0.2.13.apk
 echo " "
 echo "Starting New App" | grep 'Starting New App' --color
 adb shell am start -a android.intent.action.MAIN -n com.nianticproject.ingress/com.nianticproject.ingress.NemesisActivity
+
+before_script:
+script:
+#  - git config --global user.email ""
+#  - git config --global user.name "isnuryusuf"
+#  - python bin/import_apk.py ingress-latest.apk
+#  - python bin/prepare_lowres.py
+#  - python bin/release.py
+
+after_success:
+branches:
+  only:
+    - master
+notifications:
+  email: false
