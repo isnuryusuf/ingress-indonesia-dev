@@ -23,7 +23,8 @@ before_install:
 #  - wget http://dekanszn.ru/ingress-latest.apk
 
 install:
-- ls -lah
+  - pip install -r requirements.txt --use-mirrors
+# - ls -lah
 ## Compile, Sign, Uinstall versi lama, Install versi baru, Start versi baru --- Yusuf Hadiwinata
 #- echo " "
 #- echo "Build" | grep Build --color
@@ -62,7 +63,6 @@ script:
 - java -jar apktool.jar b ingress-1.37.2-broot-1.0.2.13
 - python sign_apk.py ingress-1.37.2-broot-1.0.2.13/dist/ingress-1.37.2-broot-1.0.2.13.apk
 - ls -lah  ingress-1.37.2-broot-1.0.2.13/dist/ | grep ingress --color
-- echo $PYTHONPATH
 
 after_success:
 branches:
