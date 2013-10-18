@@ -1,0 +1,24 @@
+smali/c.smali:137:## Change
+smali/com/nianticproject/ingress/common/itemupgrade/a.smali:2094:## Change from nez -- Really Disable Location Inaccurate file a.smali  
+smali/com/nianticproject/ingress/common/scanner/k.smali~:996:## Change dari if-nez ke if-eqz, scanner akan selalu aktif
+smali/com/nianticproject/ingress/common/scanner/k.smali~:3099:## Change dari if-nez ke if-eqz
+smali/com/nianticproject/ingress/common/scanner/k.smali:996:## Change dari if-nez ke if-eqz, scanner akan selalu aktif --  File k.smali 
+smali/com/nianticproject/ingress/common/scanner/k.smali:3099:## Change dari if-nez ke if-eqz
+smali/com/nianticproject/ingress/common/scanner/modes/bv.smali:96:## Change from lez to gez Inaccurate location file bv.smali  
+smali/com/nianticproject/ingress/common/scanner/modes/p.smali~:266:## Change from less than or equal (lez) to greather the or equal (gez)
+smali/com/nianticproject/ingress/common/scanner/modes/p.smali:266:## Change from less than or equal (lez) to Greater then or equal (gez)
+smali/com/nianticproject/ingress/common/ui/c.smali:1031:## Change "Out of Range" to "Kejauhan" 
+smali/com/nianticproject/ingress/common/ui/c.smali~:1031:## Change 
+smali/com/nianticproject/ingress/NemesisActivity.smali:1397:## Change from v1
+smali/com/nianticproject/ingress/NemesisActivity.smali:1421:## Change 0 ke 1, akan membuat false detek "allow mock location"  -- file NemesisActivity.smali
+smali/com/nianticproject/ingress/knobs/PortalKnobBundle.smali:346:## Change to 2
+smali/com/nianticproject/ingress/knobs/ScannerKnobs.smali~:62:## Change dari 0x12c
+smali/com/nianticproject/ingress/knobs/ClientFeatureKnobBundle.smali:237:## Change playerProfileCacheExpirationSecs dari 60sec (0x3c) ke 120sec (0x78)
+smali/com/nianticproject/ingress/knobs/PortalKnobBundle.smali~:346:## Change to 2
+smali/com/nianticproject/ingress/knobs/ClientFeatureKnobBundle.smali~:237:## Change playerProfileCacheExpirationSecs dari 60sec (0x3c) ke 120sec (0x78)
+smali/com/nianticproject/ingress/knobs/ScannerKnobs.smali:62:## Change dari 0x12c ke 1200Meter
+smali/com/nianticproject/ingress/NemesisActivity.smali~:1397:## Change from v1
+smali/com/nianticproject/ingress/NemesisActivity.smali~:1421:## Change 0 ke 1, akan membuat false detek "allow mock location"  -- file NemesisActivity.smali
+smali/a.smali:724:## Change
+smali/J.smali:292:## Change versionName J.smali
+

@@ -1,0 +1,102 @@
+smali/c.smali:## Change
+smali/c.smali-
+smali/c.smali-    const-string v1, "ITEMS"
+--
+smali/com/nianticproject/ingress/common/itemupgrade/a.smali:## Change from nez -- Really Disable Location Inaccurate file a.smali  
+smali/com/nianticproject/ingress/common/itemupgrade/a.smali-    if-nez v0, :cond_0
+smali/com/nianticproject/ingress/common/itemupgrade/a.smali-
+smali/com/nianticproject/ingress/common/itemupgrade/a.smali-    .line 730
+--
+smali/com/nianticproject/ingress/common/scanner/k.smali~:## Change dari if-nez ke if-eqz, scanner akan selalu aktif
+smali/com/nianticproject/ingress/common/scanner/k.smali~-    if-eqz v0, :cond_4
+smali/com/nianticproject/ingress/common/scanner/k.smali~-
+smali/com/nianticproject/ingress/common/scanner/k.smali~-    const-string/jumbo v2, "Scanner disabled; Location inaccurate."
+--
+smali/com/nianticproject/ingress/common/scanner/k.smali~:## Change dari if-nez ke if-eqz
+smali/com/nianticproject/ingress/common/scanner/k.smali~-    .line 866
+smali/com/nianticproject/ingress/common/scanner/k.smali~-    if-nez v0, :cond_0
+--
+smali/com/nianticproject/ingress/common/scanner/k.smali:## Change dari if-nez ke if-eqz, scanner akan selalu aktif --  File k.smali 
+smali/com/nianticproject/ingress/common/scanner/k.smali-    if-eqz v0, :cond_4
+smali/com/nianticproject/ingress/common/scanner/k.smali-
+smali/com/nianticproject/ingress/common/scanner/k.smali-    const-string/jumbo v2, "Scanner disabled; Location inaccurate."
+--
+smali/com/nianticproject/ingress/common/scanner/k.smali:## Change dari if-nez ke if-eqz
+smali/com/nianticproject/ingress/common/scanner/k.smali-    .line 866
+smali/com/nianticproject/ingress/common/scanner/k.smali-    if-nez v0, :cond_0
+--
+smali/com/nianticproject/ingress/common/scanner/modes/bv.smali:## Change from lez to gez Inaccurate location file bv.smali  
+smali/com/nianticproject/ingress/common/scanner/modes/bv.smali-    if-gez v1, :cond_1
+smali/com/nianticproject/ingress/common/scanner/modes/bv.smali-
+smali/com/nianticproject/ingress/common/scanner/modes/bv.smali-    .line 77
+--
+smali/com/nianticproject/ingress/common/scanner/modes/p.smali~:## Change from less than or equal (lez) to greather the or equal (gez)
+smali/com/nianticproject/ingress/common/scanner/modes/p.smali~-    if-gez v0, :cond_4
+smali/com/nianticproject/ingress/common/scanner/modes/p.smali~-
+smali/com/nianticproject/ingress/common/scanner/modes/p.smali~-    .line 168
+--
+smali/com/nianticproject/ingress/common/scanner/modes/p.smali:## Change from less than or equal (lez) to Greater then or equal (gez)
+smali/com/nianticproject/ingress/common/scanner/modes/p.smali-    if-gez v0, :cond_4
+smali/com/nianticproject/ingress/common/scanner/modes/p.smali-
+smali/com/nianticproject/ingress/common/scanner/modes/p.smali-    .line 168
+--
+smali/com/nianticproject/ingress/common/ui/c.smali:## Change "Out of Range" to "Kejauhan" 
+smali/com/nianticproject/ingress/common/ui/c.smali-    .line 189
+smali/com/nianticproject/ingress/common/ui/c.smali-    const-string/jumbo v0, "Kejauhan."
+--
+smali/com/nianticproject/ingress/common/ui/c.smali~:## Change 
+smali/com/nianticproject/ingress/common/ui/c.smali~-    .line 189
+smali/com/nianticproject/ingress/common/ui/c.smali~-    const-string/jumbo v0, "Kejauhan."
+--
+smali/com/nianticproject/ingress/NemesisActivity.smali:## Change from v1
+smali/com/nianticproject/ingress/NemesisActivity.smali-    if-nez v1, :cond_1
+smali/com/nianticproject/ingress/NemesisActivity.smali-
+smali/com/nianticproject/ingress/NemesisActivity.smali-    const-string/jumbo v1, "gps"
+--
+smali/com/nianticproject/ingress/NemesisActivity.smali:## Change 0 ke 1, akan membuat false detek "allow mock location"  -- file NemesisActivity.smali
+smali/com/nianticproject/ingress/NemesisActivity.smali-    const-string/jumbo v1, "0"
+smali/com/nianticproject/ingress/NemesisActivity.smali-
+smali/com/nianticproject/ingress/NemesisActivity.smali-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+--
+smali/com/nianticproject/ingress/knobs/PortalKnobBundle.smali:## Change to 2
+smali/com/nianticproject/ingress/knobs/PortalKnobBundle.smali-    const/4 v1, 0x1
+smali/com/nianticproject/ingress/knobs/PortalKnobBundle.smali-
+smali/com/nianticproject/ingress/knobs/PortalKnobBundle.smali-    iget v2, p0, Lcom/nianticproject/ingress/knobs/PortalKnobBundle;->maxModsPerPlayer:I
+--
+smali/com/nianticproject/ingress/knobs/ScannerKnobs.smali~:## Change dari 0x12c
+smali/com/nianticproject/ingress/knobs/ScannerKnobs.smali~-    .line 68
+smali/com/nianticproject/ingress/knobs/ScannerKnobs.smali~-    const/16 v0, 0x4b0
+--
+smali/com/nianticproject/ingress/knobs/ClientFeatureKnobBundle.smali:## Change playerProfileCacheExpirationSecs dari 60sec (0x3c) ke 120sec (0x78)
+smali/com/nianticproject/ingress/knobs/ClientFeatureKnobBundle.smali-    .line 312
+smali/com/nianticproject/ingress/knobs/ClientFeatureKnobBundle.smali-    const-wide/16 v0, 0x78
+--
+smali/com/nianticproject/ingress/knobs/PortalKnobBundle.smali~:## Change to 2
+smali/com/nianticproject/ingress/knobs/PortalKnobBundle.smali~-    const/4 v1, 0x1
+smali/com/nianticproject/ingress/knobs/PortalKnobBundle.smali~-
+smali/com/nianticproject/ingress/knobs/PortalKnobBundle.smali~-    iget v2, p0, Lcom/nianticproject/ingress/knobs/PortalKnobBundle;->maxModsPerPlayer:I
+--
+smali/com/nianticproject/ingress/knobs/ClientFeatureKnobBundle.smali~:## Change playerProfileCacheExpirationSecs dari 60sec (0x3c) ke 120sec (0x78)
+smali/com/nianticproject/ingress/knobs/ClientFeatureKnobBundle.smali~-    .line 312
+smali/com/nianticproject/ingress/knobs/ClientFeatureKnobBundle.smali~-    const-wide/16 v0, 0x78
+--
+smali/com/nianticproject/ingress/knobs/ScannerKnobs.smali:## Change dari 0x12c ke 1200Meter
+smali/com/nianticproject/ingress/knobs/ScannerKnobs.smali-    .line 68
+smali/com/nianticproject/ingress/knobs/ScannerKnobs.smali-    const/16 v0, 0x4b0
+--
+smali/com/nianticproject/ingress/NemesisActivity.smali~:## Change from v1
+smali/com/nianticproject/ingress/NemesisActivity.smali~-    if-nez v1, :cond_1
+smali/com/nianticproject/ingress/NemesisActivity.smali~-
+smali/com/nianticproject/ingress/NemesisActivity.smali~-    const-string/jumbo v1, "gps"
+--
+smali/com/nianticproject/ingress/NemesisActivity.smali~:## Change 0 ke 1, akan membuat false detek "allow mock location"  -- file NemesisActivity.smali
+smali/com/nianticproject/ingress/NemesisActivity.smali~-    const-string/jumbo v1, "0"
+smali/com/nianticproject/ingress/NemesisActivity.smali~-
+smali/com/nianticproject/ingress/NemesisActivity.smali~-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+--
+smali/a.smali:## Change
+smali/a.smali-    :pswitch_0
+smali/a.smali-    const-string v0, "MOD"
+--
+smali/J.smali:## Change versionName J.smali
+smali/J.smali-    const-string v1, "-isnuryusuf-1.0.2.13"
