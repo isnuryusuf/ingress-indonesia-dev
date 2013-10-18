@@ -17,7 +17,7 @@ before_install:
 #- sudo apt-get install python-yaml
 - sudo apt-get install build-essential python-yaml cmake subversion wget python-setuptools mercurial git-core
 - sudo easy_install PyYAML
-- apt-get install python3-yaml
+- sudo apt-get install python3-yaml
 #- wget http://ingress-apk-mod.o4kapuk.info/files/lib.tar.gz
 #- tar xvfz lib.tar.gz
 #  - wget http://dekanszn.ru/ingress-latest.apk
