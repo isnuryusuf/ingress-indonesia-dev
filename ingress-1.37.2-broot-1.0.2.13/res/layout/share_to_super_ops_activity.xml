@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center" android:id="@*android:id/icon" android:layout_width="128.0dip" android:layout_height="128.0dip" android:scaleType="centerInside" />
+        <TextView android:gravity="center" android:id="@*android:id/text1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/message_share_to_super_ops_enter_portal_title" android:layout_weight="1.0" style="@style/Nemesis.Widget.TextView" />
+        <EditText android:id="@*android:id/input" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:hint="@string/hint_portal_title" android:layout_weight="1.0" style="@style/Nemesis.Widget.Comms.MessageBox.SignOn" />
+    </LinearLayout>
+    <com.nianticproject.ingress.ui.SlantedButtonPane android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/negative_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*android:string/cancel" style="@style/Nemesis.Widget.Modern.Button.ActionButton.Negative" />
+        <Button android:id="@id/positive_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@*android:string/ok" style="@style/Nemesis.Widget.Modern.Button.ActionButton.Positive" />
+    </com.nianticproject.ingress.ui.SlantedButtonPane>
+</RelativeLayout>

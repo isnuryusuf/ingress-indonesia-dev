@@ -1,0 +1,114 @@
+package com.nianticproject.ingress.common.playerprofile;
+
+import com.badlogic.gdx.graphics.Color;
+import com.nianticproject.ingress.common.ui.elements.ModalDialog.CloseStyle;
+
+public class PlayerProfileStyles
+{
+  public static final float AVATAR_SELECTION_TITLE_BAR_HEIGHT_SCALE = 1.35F;
+  public static final int BADGE_DETAILS_DIALOG_ALIGNMENT = 1;
+  public static final ModalDialog.CloseStyle BADGE_DETAILS_DIALOG_CLOSE_STYLE = ModalDialog.CloseStyle.X;
+  public static final float BADGE_DETAILS_DIALOG_HEIGHT_RELATIVE = 0.0F;
+  public static final boolean BADGE_DETAILS_DIALOG_SHRINK_HEIGHT_TO_FIT = true;
+  public static final boolean BADGE_DETAILS_DIALOG_TOUCH_OUTSIDE_CLOSES = true;
+  public static final float BADGE_DETAILS_DIALOG_WIDTH_RELATIVE = 1.0F;
+  public static final String BADGE_GRID_BACKGROUND_DRAWABLE = "tile-diag";
+  public static final String CATEGORY_LABEL_STYLE = "profiles-category";
+  public static final int COLOR_AVATAR_LAYER_CONNECTOR_LINE = 16755791;
+  public static final int COLOR_AVATAR_LAYER_ITEM_BRACKETS = 16762974;
+  public static final int COLOR_HORIZONTAL_SEPARATOR = 46783;
+  public static final Color COLOR_TINT_PRESSED_BADGE = Color.GRAY;
+  public static final float DONE_BUTTON_HEIGHT_SCALE = 1.85F;
+  public static final float DONE_BUTTON_WIDTH_SCALE = 3.5F;
+  public static final int MAX_BADGES_PER_ROW = 5;
+  public static final int MAX_BADGE_ROWS = 2;
+  public static final int MAX_TIERS_PER_ROW = 3;
+  public static final String METRIC_NAME_LABEL_STYLE = "profiles-metric-name";
+  public static final String METRIC_VALUE_LABEL_STYLE = "profiles-metric-value";
+  public static final float NOTIFICATION_LARGE_ICON_SIZE_DP = 48.0F;
+  public static final int PADDING_ABOVE_METRIC_DP = -8;
+  public static final float PADDING_AVATAR_SELECTION_COLOR_PICKER_DP = 6.0F;
+  public static final float PADDING_AVATAR_SELECTION_LAYER_WIDGET_DP = 8.0F;
+  public static final float PADDING_AVATAR_SELECTION_TEXT_DP = 8.0F;
+  public static final int PADDING_BETWEEN_BADGES_AND_METRICS_DP = 16;
+  public static final float PADDING_BETWEEN_CATEGORY_ICON_AND_NAME_DP = 8.0F;
+  public static final float PADDING_BETWEEN_ERROR_LABEL_AND_BUTTON_DP = 8.0F;
+  public static final float PADDING_BETWEEN_LABEL_AND_BADGES_DP = 16.0F;
+  public static final int PADDING_BETWEEN_PLAYER_HEADER_AND_BADGES_DP = 16;
+  public static final float PADDING_BETWEEN_PLAYER_HEADER_AND_LABEL_DP = 16.0F;
+  public static final float PADDING_HEADER_DP = 24.0F;
+  public static final float PADDING_SIDES = 24.0F;
+  public static final int PADDING_TOP_AND_BOTTOM_OF_STATS_TABS_DP = 16;
+  public static final int PADDING_TOP_AND_BOTTOM_OF_TIER_FOOTER_DP = 16;
+  public static final float PADDING_VERTICAL_SEPARATOR_DP = 16.0F;
+  public static final float SELECTION_UI_TITLE_PAD_SCALE = 0.2F;
+  public static final float SIZE_AVATAR_IMAGES_RELATIVE = 0.5F;
+  public static final int SIZE_AVATAR_VIEW_IN_AVATAR_SELECTION_DP = 116;
+  public static final int SIZE_AVATAR_VIEW_IN_PLAYER_HEADER_DP = 96;
+  public static final float SIZE_BADGE_IN_ACHIEVEMENT_UNLOCKED_RELATIVE = 0.35F;
+  public static final int SIZE_CATEGORY_BULLET_POINT_DP = 12;
+  public static final float SIZE_COLOR_PICKER_BUTTON_DP = 32.0F;
+  public static final float SIZE_DETAILED_BADGE_RELATIVE = 0.2F;
+  public static final float SIZE_DETAILED_TIER_BADGE_RELATIVE = 0.1F;
+  public static final float SIZE_WIDGET_AVATAR_SELECTOR_RELATIVE = 0.2F;
+  public static final float SPACING_BETWEEN_AVATAR_LAYER_SELECTORS = 8.0F;
+  public static final float SPACING_BETWEEN_BADGES_HORIZONTAL_DP = 0.0F;
+  public static final float SPACING_BETWEEN_BADGES_VERTICAL_DP = 0.0F;
+  public static final int SPACING_BETWEEN_BADGE_DETAILS_HEADER_AND_FOOTER_DP = 8;
+  public static final float SPACING_BETWEEN_COLOR_PICKER_BUTTONS_DP = 12.0F;
+  public static final float SPACING_BETWEEN_TIER_ROWS_VERTICAL_DP = 8.0F;
+  public static final float SPACING_GENERIC_DP = 8.0F;
+  public static final String STYLE_ALL_BADGES_STATUS_LABEL = "profiles-select-badge-for-details";
+  public static final String STYLE_AVATAR_SELECTION_ERROR_LABEL = "profiles-avatar-error-label";
+  public static final String STYLE_AVATAR_SELECTION_LAYER_NAME_LABEL = "profiles-avatar-selection-layer-name";
+  public static final String STYLE_AVATAR_SELECTOR = "profiles-avatar-carousel";
+  public static final String STYLE_BADGES_ERROR = "profiles-badges-error";
+  public static final String STYLE_BADGES_LOADING = "profiles-badges-loading";
+  public static final String STYLE_BADGES_MORE = "profiles-badges-more";
+  public static final String STYLE_BADGE_DEFAULT = "default";
+  public static final String STYLE_BADGE_DETAILS_DESCRIPTION = "profiles-badge-details-desc";
+  public static final String STYLE_BADGE_DETAILS_TIER_VALUE = "profiles-badge-details-tier-value";
+  public static final String STYLE_BADGE_DETAILS_TITLE = "profiles-badge-details-title";
+  public static final String STYLE_BADGE_EARNED_NAME = "profiles-badge-earned-dialog-name";
+  public static final String STYLE_BADGE_EARNED_TITLE = "profiles-badge-earned-dialog-title";
+  public static final String STYLE_HEADER_AP_LABEL = "profiles-player-header-ap";
+  public static final String STYLE_HEADER_AP_TO_NEXT_LEVEL_LABEL = "profiles-player-header-ap-to-next-level";
+  public static final String STYLE_HEADER_LEVEL_LABEL = "profiles-player-header-level";
+  public static final String STYLE_HEADER_LEVEL_NUMBER_LABEL = "profiles-player-header-level-number";
+  public static final String STYLE_HEADER_NICKNAME_LABEL_ALIENS = "profiles-player-header-nickname-aliens";
+  public static final String STYLE_HEADER_NICKNAME_LABEL_NEUTRAL = "profiles-player-header-nickname-neutral";
+  public static final String STYLE_HEADER_NICKNAME_LABEL_RESISTANCE = "profiles-player-header-nickname-resistance";
+  public static final String STYLE_SCROLL_PANE = "profiles";
+  public static final String STYLE_SCROLL_PANE_AVATAR_COLOR_PICKER = "avatar-color-picker";
+  public static final String STYLE_STATS_TAB = "profiles-stats-filter-tab";
+  public static final String STYLE_TEXT_LOADING_ERROR = "default";
+  public static final String STYLE_TEXT_LOADING_ERROR_RETRY_BUTTON = "default";
+  public static final String STYLE_TITLE_AVATAR_SELECTION_LABEL = "profiles-avatar-title";
+  public static final String TEXT_AVATAR_SELECTION_DONE_BUTTON = "DONE";
+  public static final String TEXT_AVATAR_SELECTION_ERROR_BUTTON = "RETRY";
+  public static final String TEXT_ERROR_LOADING_AVATAR_OPTIONS = "Could not load avatar options.";
+  public static final String TEXT_ERROR_SELECTING_AVATAR = "Could not set avatar.";
+  public static final String TEXT_LOADING_ERROR_RECOVERABLE = "Error, please try again.";
+  public static final String TEXT_LOADING_ERROR_RETRY_BUTTON_RECOVERABLE = "RETRY";
+  public static final String TEXT_LOADING_ERROR_RETRY_BUTTON_UNRECOVERABLE = "CLOSE";
+  public static final String TEXT_MORE = "MORE";
+  public static final String TEXT_SELECT_BADGE_FOR_DETAILS = "Select a medal for details";
+  public static final String TEXT_STAT_TAB_ALL_TIME = "ALL TIME";
+  public static final String TEXT_STAT_TAB_MONTH = "MONTH";
+  public static final String TEXT_STAT_TAB_NOW = "NOW";
+  public static final String TEXT_STAT_TAB_WEEK = "WEEK";
+  public static final String TEXT_TITLE_AVATAR_SELECTION = "Select Agent Avatar";
+  public static final String TEXT_TITLE_BADGE_EARNED_DIALOG = "Medal Earned:";
+  public static final String TEXT_WHEN_ERROR = "!";
+  public static final String TEXT_WHILE_LOADING = "...";
+  public static final CharSequence TEXT_WHILE_LOADING_MORE_BADGES = "Loading badges...";
+  public static final float THICKNESS_AVATAR_LAYER_CONNECTOR_LINE_DP = 2.0F;
+  public static final float THICKNESS_AVATAR_SELECTOR_HORIZONTAL_SEPARATOR_LINE_DP = 1.0F;
+  public static final float THICKNESS_HORIZONTAL_SEPARATOR_DP = 2.0F;
+  public static final int VERTICAL_SPACING_AVATAR_PREVIEW_DP = 24;
+}
+
+/* Location:           classes_dex2jar.jar
+ * Qualified Name:     com.nianticproject.ingress.common.playerprofile.PlayerProfileStyles
+ * JD-Core Version:    0.6.2
+ */

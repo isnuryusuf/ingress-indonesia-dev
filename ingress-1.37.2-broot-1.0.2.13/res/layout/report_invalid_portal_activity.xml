@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <RadioGroup android:orientation="vertical" android:id="@id/radio_invalid_portal_reason" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/radio_invalid_portal_does_not_exist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_invalid_portal_does_not_exist" />
+            <RadioButton android:id="@id/radio_invalid_portal_location_not_interesting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_invalid_portal_location_not_interesting" />
+            <RadioButton android:id="@id/radio_invalid_portal_location_not_safe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_invalid_portal_location_not_safe" />
+            <RadioButton android:id="@id/radio_invalid_portal_location_not_accessible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_invalid_portal_location_not_accessible" />
+            <RadioButton android:id="@id/radio_invalid_portal_duplicate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_invalid_portal_duplicate" />
+            <RadioButton android:id="@id/radio_invalid_portal_other" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_invalid_portal_other" />
+        </RadioGroup>
+        <EditText android:textColor="@drawable/comm_edittext_text_color" android:gravity="top" android:id="@id/edit" android:background="@drawable/comm_edittext_bg" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:singleLine="true" android:imeOptions="actionSend" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/submit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="16.0dip" android:text="@string/submit" android:layout_weight="1.0" style="@style/Nemesis.Widget.Modern.Button.ActionButton.Neutral" />
+        <Button android:id="@id/cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip" android:text="@string/cancel" android:layout_weight="1.0" style="@style/Nemesis.Widget.Modern.Button.ActionButton.Neutral" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/scanner_layout_parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/scanner_view_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/comms" />
+    <TextView android:gravity="center" android:id="@id/no_connectivity_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_no_connectivity" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/Nemesis.Widget.TextView.NoConnection" />
+    <LinearLayout android:orientation="vertical" android:id="@id/pregame_fragment_container" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

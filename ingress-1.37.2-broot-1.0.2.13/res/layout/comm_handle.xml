@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/previewContainer" android:layout_alignBottom="@id/comm_handle" style="@style/Nemesis.Widget.Comms.PreviewContainer">
+        <ListView android:id="@id/previewList" android:clickable="false" style="@style/Nemesis.Widget.Comms.ListView" />
+    </RelativeLayout>
+    <View android:background="@drawable/comm_separator" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_toLeftOf="@id/comm_handle" android:layout_alignBottom="@id/comm_handle" />
+    <com.nianticproject.ingress.ui.CommHandle android:id="@id/comm_handle" android:layout_alignParentRight="true" style="@style/Nemesis.Widget.Comms.CommHandle" />
+    <View android:background="@color/comm_tabhost_background" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_below="@id/comm_handle" />
+</RelativeLayout>

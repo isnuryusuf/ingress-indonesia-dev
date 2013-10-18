@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="comm_messagebox_height">32.0dip</dimen>
+    <dimen name="comm_handle_wedge_width">24.0px</dimen>
+    <dimen name="comm_handle_stroke_width">2.0dip</dimen>
+</resources>

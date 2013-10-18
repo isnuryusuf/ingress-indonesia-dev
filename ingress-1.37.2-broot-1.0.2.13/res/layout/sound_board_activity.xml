@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/led_00" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" />
+    <View android:id="@id/led_01" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/led_00" />
+    <View android:id="@id/led_02" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/led_01" />
+    <View android:id="@id/led_03" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/led_02" />
+    <View android:id="@id/led_04" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/led_03" />
+    <View android:id="@id/led_05" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/led_04" />
+    <View android:id="@id/led_06" android:background="#ff008000" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/led_05" />
+    <View android:id="@id/led_07" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/led_06" />
+    <View android:id="@id/led_08" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/led_07" />
+    <View android:id="@id/led_09" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/led_08" />
+    <View android:id="@id/led_10" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/led_09" />
+    <View android:id="@id/led_11" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/led_10" />
+    <View android:id="@id/led_12" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/led_11" />
+    <View android:id="@id/led_13" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/led_12" />
+    <View android:id="@id/led_14" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/led_13" />
+    <View android:id="@id/led_15" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="4.0dip" android:layout_toRightOf="@id/led_14" />
+    <TextView android:id="@id/textview_track_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/led_00" />
+    <GridView android:gravity="center" android:id="@id/gridview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="4.0dip" android:verticalSpacing="4.0dip" android:stretchMode="columnWidth" android:columnWidth="60.0dip" android:numColumns="auto_fit" android:layout_below="@id/textview_track_name" />
+</RelativeLayout>

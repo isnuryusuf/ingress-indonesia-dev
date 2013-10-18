@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/titlebar" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:id="@id/invites_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/invites_error_retry" android:layout_centerInParent="true" style="@style/Nemesis.Widget.Modern.Button.ActionButton.Neutral" />
+        <LinearLayout android:orientation="vertical" android:id="@*android:id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/progress_loading" style="@style/Nemesis.Widget.TextView" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/invites_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                <AutoCompleteTextView android:layout_gravity="center_vertical" android:id="@id/enter_email" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="-1.0dip" android:hint="@string/invites_enter_email" android:layout_weight="1.0" android:inputType="textEmailAddress" android:imeOptions="actionNone" style="@style/Nemesis.Widget.Comms.MessageBox" />
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <Button android:id="@id/invite_button1" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/invites_invite" android:layout_centerInParent="true" style="@style/Nemesis.Widget.Modern.Button.ActionButton.Neutral" />
+                    <ProgressBar android:id="@id/inviting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@android:style/Widget.ProgressBar.Small" />
+                </RelativeLayout>
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/foreground" android:gravity="right" android:id="@id/remaining" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/invites_remaining" style="@style/Nemesis.Widget.TextView" />
+            <ListView android:id="@*android:id/list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@*android:color/transparent" android:divider="@color/background" android:dividerHeight="1.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

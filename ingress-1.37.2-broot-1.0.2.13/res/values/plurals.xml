@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="title_at_player">
+        <item quantity="other">%d new COMM messages</item>
+        <item quantity="one">New COMM message</item>
+    </plurals>
+    <plurals name="title_portal_under_attack">
+        <item quantity="other">%d Portals under attack</item>
+        <item quantity="one">Portal under attack</item>
+    </plurals>
+    <plurals name="title_portal_neutralized">
+        <item quantity="other">%d Portals neutralized</item>
+        <item quantity="one">Portal neutralized</item>
+    </plurals>
+</resources>
