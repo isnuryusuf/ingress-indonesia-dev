@@ -19,7 +19,7 @@ More info
 - https://github.com/Ingress-apk-mod/ingress-apk-mod
 
 * useful link:
-- http://androidcracking.blogspot.com/2010/09/examplesmali.html
+- http://androidcracking.blogspot.com/
 - http://csscolorpicker.com/
 - http://pallergabor.uw.hu/androidblog/dalvik_opcodes.html
 - http://www.binaryhexconverter.com/hex-to-decimal-converter
