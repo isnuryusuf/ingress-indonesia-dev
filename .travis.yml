@@ -16,7 +16,7 @@ before_install:
 - export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/build-tools/17.0.0/:${ANDROID_HOME}/tools/proguard/bin/
 - echo y | android update sdk --filter android-17,platform-tools,build-tools-17.0.0 --all --no-ui --force
 #- sudo apt-get install python-yaml
-- sudo apt-get install build-essential python-yaml cmake subversion wget python-setuptools mercurial git-core easy_install  python3-yaml gcc make
+- sudo apt-get install build-essential python-yaml cmake subversion wget python-setuptools mercurial git-core python3-yaml gcc make
 #- wget http://ingress-apk-mod.o4kapuk.info/files/lib.tar.gz
 #- tar xvfz lib.tar.gz
 #  - wget http://dekanszn.ru/ingress-latest.apk
