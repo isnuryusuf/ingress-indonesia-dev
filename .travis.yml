@@ -22,7 +22,7 @@ before_install:
 #  - wget http://dekanszn.ru/ingress-latest.apk
 
 install:
-  - pip install -r requirements.txt --use-mirrors
+#  - pip install -r requirements.txt --use-mirrors
 # - ls -lah
 ## Compile, Sign, Uinstall versi lama, Install versi baru, Start versi baru --- Yusuf Hadiwinata
 #- echo " "
